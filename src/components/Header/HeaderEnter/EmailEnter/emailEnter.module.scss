@@ -1,0 +1,28 @@
+@import '../../../../styles/var';
+
+.block {
+  display: flex;
+  justify-content: flex-end;
+}
+.input {
+  border: 1px solid rgba($white, 0.3);
+  background: transparent;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: $white;
+  padding: 11px 20px 11px;
+  width: 100%;
+  &::placeholder {
+    color: $white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: $fontMain;
+  }
+}
+
+.button {
+  margin-left: 10px;
+}

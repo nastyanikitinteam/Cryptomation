@@ -1,0 +1,27 @@
+@import '../../styles/var';
+
+.section {
+  padding: 163px 0 120px;
+}
+
+.el1 {
+  position: absolute;
+  left: 18%;
+  top: 13%;
+}
+
+.el2 {
+  position: absolute;
+  right: 35%;
+  top: -5%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 70px 0;
+  }
+  .el1,
+  .el2 {
+    display: none;
+  }
+}

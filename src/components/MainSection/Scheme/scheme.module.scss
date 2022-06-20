@@ -1,0 +1,18 @@
+// 0% {
+//     stroke-dashoffset: 10;
+// }
+
+.line {
+  stroke-dasharray: 5;
+  animation: dashdraw 1s linear infinite;
+}
+
+.container {
+  height: 500px;
+}
+
+@keyframes dashdraw {
+  0% {
+    stroke-dashoffset: 10;
+  }
+}

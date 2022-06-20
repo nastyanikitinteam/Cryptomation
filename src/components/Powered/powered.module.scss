@@ -1,0 +1,52 @@
+@import '../../styles/var';
+
+.section {
+  padding: 157px 0 170px;
+}
+
+.subtitle {
+  color: $black;
+  margin-top: 51px;
+  text-align: center;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba($black, 0.7);
+  max-width: 622px;
+  width: 100%;
+  margin: 16px auto 80px;
+}
+
+.el1 {
+  position: absolute;
+  left: 24%;
+  top: -8%;
+}
+
+.el2 {
+  position: absolute;
+  right: 11%;
+  top: 13%;
+}
+
+@media (max-width: 998px) {
+  .section {
+    padding: 70px 0;
+  }
+  .subtitle {
+    margin-top: 30px;
+  }
+  .text {
+    margin-bottom: 40px;
+  }
+  .el1 {
+    display: none;
+  }
+  .el2 {
+    display: none;
+  }
+}

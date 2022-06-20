@@ -1,0 +1,32 @@
+@import '../../styles/var';
+
+.section {
+  background-image: url(../../assets/images/Helper/back.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #03031a;
+  padding: 160px 0;
+}
+
+.el1 {
+  position: absolute;
+  right: 8%;
+  top: -6%;
+}
+
+.el2 {
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+
+@media (max-width: 768px) {
+  .el1,
+  .el2 {
+    display: none;
+  }
+  .section {
+    padding: 70px 0;
+  }
+}

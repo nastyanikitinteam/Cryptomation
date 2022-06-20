@@ -1,0 +1,38 @@
+@import '../../../styles/var';
+
+.block {
+  background: linear-gradient(179.27deg, #50104c 0.63%, #11073b 241.08%);
+  border-radius: 15px;
+  padding: 8px 15px 21px;
+}
+
+.blockImage {
+  padding: 0;
+}
+
+.text {
+  max-height: 162px;
+  min-height: 162px;
+  height: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+  color: $white;
+  overflow-y: auto;
+  font-family: $fontOther;
+  padding-left: 5px;
+  white-space: pre-wrap;
+}
+
+.top {
+  max-width: 52px;
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.image {
+  svg {
+    width: 100%;
+  }
+}
