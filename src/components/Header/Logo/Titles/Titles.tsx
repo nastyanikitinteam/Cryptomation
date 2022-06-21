@@ -18,7 +18,7 @@ const Titles: FC<IProps> = ({ isAnimate, setIsAnimate }) => {
     isAnimate === true &&
       setTimeout(() => {
         setIsAnimate(false);
-      }, 4700);
+      }, 4000);
   }, [isAnimate]);
 
   const arr = [

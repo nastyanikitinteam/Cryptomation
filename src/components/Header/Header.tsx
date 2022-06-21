@@ -13,7 +13,9 @@ const Header = () => {
   const [isAnimate, setIsAnimate] = useState(false);
 
   useEffect(() => {
-    setIsAnimate(true);
+    setTimeout(() => {
+      isAnimate === false && setIsAnimate(true);
+    }, 500);
   }, []);
 
   const handleScroll = () => {
