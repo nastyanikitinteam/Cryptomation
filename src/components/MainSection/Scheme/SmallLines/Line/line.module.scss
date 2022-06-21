@@ -1,39 +1,47 @@
-.line-0 {
+.line {
+  opacity: 0;
+}
+
+.isAnimate {
+  opacity: 1;
+}
+
+.isAnimate.line-0 {
   animation: animateLine0 4s linear infinite forwards;
 }
 
-.line-1 {
+.isAnimate.line-1 {
   clip-path: inset(0% 100% 0% 0%);
   animation: animateLine1 4s linear infinite forwards;
   animation-delay: 2s;
 }
 
-.line-2 {
+.isAnimate.line-2 {
   animation: animateLine2 4s linear infinite forwards;
 }
 
-.line-3 {
+.isAnimate.line-3 {
   animation: animateLine3 4s linear infinite forwards;
   animation-delay: 2s;
   clip-path: inset(0% 100% 0% 0%);
 }
-.line-4 {
+.isAnimate.line-4 {
   clip-path: inset(0% 0% 0% 100%);
   animation: animateLine4 4s linear infinite forwards;
   animation-delay: 2s;
 }
 
-.line-5 {
+.isAnimate.line-5 {
   animation: animateLine5 4s linear infinite forwards;
 }
 
-.line-6 {
+.isAnimate.line-6 {
   clip-path: inset(0% 0% 0% 100%);
   animation: animateLine6 4s linear infinite forwards;
   animation-delay: 2s;
 }
 
-.line-7 {
+.isAnimate.line-7 {
   animation: animateLine7 4s linear infinite forwards;
 }
 

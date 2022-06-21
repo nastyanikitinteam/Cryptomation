@@ -7,6 +7,13 @@ import SmallLines from './SmallLines/SmallLines';
 import CenterBlock from './CenterBlock/CenterBlock';
 
 const Scheme = () => {
+  const [isAnimate, setIsAnimate] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsAnimate(true);
+    }, 1000);
+  }, []);
   return (
     <>
       <svg
@@ -142,11 +149,11 @@ const Scheme = () => {
           <circle cx="675" cy="214" r="4" fill="#250A2C" stroke="white" />
         </g>
         <GreyLines />
-        <SmallLines />
+        <SmallLines isAnimate={isAnimate} />
 
         <Logos />
 
-        <CenterBlock />
+        <CenterBlock isAnimate={isAnimate} />
 
         <defs>
           <filter

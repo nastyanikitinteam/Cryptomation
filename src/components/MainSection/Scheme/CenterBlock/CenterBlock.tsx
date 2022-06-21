@@ -1,15 +1,13 @@
-import { useState, useEffect } from 'react';
+import { FC } from 'react';
 import cn from 'classnames';
 import styles from './centerBlock.module.scss';
 import CircleSvg from '../../../../assets/images/mainSection/scheme-centerCircle.svg';
 
-const CenterBlock = () => {
-  const [isAnimate, setIsAnimate] = useState(false);
+interface IProps {
+  isAnimate: boolean;
+}
 
-  useEffect(() => {
-    setIsAnimate(true);
-  }, []);
-
+const CenterBlock: FC<IProps> = ({ isAnimate }) => {
   return (
     <g>
       <svg

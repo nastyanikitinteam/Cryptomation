@@ -1,6 +1,11 @@
+import { FC } from 'react';
 import Line from './Line/Line';
 
-const GreyLines = () => {
+interface IProps {
+  isAnimate: boolean;
+}
+
+const GreyLines: FC<IProps> = ({ isAnimate }) => {
   const arr = [
     {
       id: 0,
@@ -47,7 +52,15 @@ const GreyLines = () => {
   return (
     <>
       {arr.map(({ id, path, stroke }) => {
-        return <Line id={id} key={id} path={path} stroke={stroke}></Line>;
+        return (
+          <Line
+            id={id}
+            key={id}
+            path={path}
+            stroke={stroke}
+            isAnimate={isAnimate}
+          ></Line>
+        );
       })}
     </>
   );

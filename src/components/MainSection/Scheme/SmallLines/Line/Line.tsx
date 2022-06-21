@@ -6,13 +6,18 @@ interface IProps {
   id: any;
   path: string;
   stroke: string;
+  isAnimate: boolean;
 }
 
-const Line: FC<IProps> = ({ id, path, stroke }) => {
+const Line: FC<IProps> = ({ id, path, stroke, isAnimate }) => {
   return (
     <>
       <path
-        className={cn([styles[`line-${id}`]], styles.line)}
+        className={cn(
+          [styles[`line-${id}`]],
+          { [styles.isAnimate]: isAnimate },
+          styles.line
+        )}
         d={path}
         stroke={stroke}
       />
