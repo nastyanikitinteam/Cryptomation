@@ -3,6 +3,7 @@
 }
 
 .line-1 {
+  clip-path: inset(0% 100% 0% 0%);
   animation: animateLine1 4s linear infinite forwards;
   animation-delay: 2s;
 }
@@ -14,8 +15,10 @@
 .line-3 {
   animation: animateLine3 4s linear infinite forwards;
   animation-delay: 2s;
+  clip-path: inset(0% 100% 0% 0%);
 }
 .line-4 {
+  clip-path: inset(0% 0% 0% 100%);
   animation: animateLine4 4s linear infinite forwards;
   animation-delay: 2s;
 }
@@ -25,6 +28,7 @@
 }
 
 .line-6 {
+  clip-path: inset(0% 0% 0% 100%);
   animation: animateLine6 4s linear infinite forwards;
   animation-delay: 2s;
 }
