@@ -45,3 +45,47 @@
   width: 100%;
   padding-top: 5px;
 }
+
+.menuButton {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  &:hover {
+    span {
+      background: $yellow;
+    }
+  }
+  span {
+    position: absolute;
+    height: 1.5px;
+    width: 19px;
+    left: calc(50% - 9.5px);
+    background: $white;
+    transition: 0.3s ease-in;
+    &:first-child {
+      top: 6px;
+    }
+    &:nth-child(2) {
+      top: 11px;
+    }
+    &:last-child {
+      top: 16px;
+    }
+  }
+  &.openMenu {
+    span {
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:first-child {
+        top: 50%;
+        transform: rotate(-45deg);
+      }
+      &:last-child {
+        top: 50%;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}

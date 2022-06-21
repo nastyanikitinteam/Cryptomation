@@ -7,7 +7,7 @@ import StickEnter from './StickEnter/StickEnter';
 import styles from './headerEnter.module.scss';
 
 interface IProps {
-  stick: boolean;
+  stick?: boolean;
 }
 
 const HeaderEnter: FC<IProps> = ({ stick }) => {
