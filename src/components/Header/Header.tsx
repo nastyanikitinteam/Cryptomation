@@ -49,7 +49,7 @@ const Header = () => {
           </Link>
 
           {isMobile ? (
-            <MobileMenu />
+            <MobileMenu isOpenMenu={isOpenMenu} />
           ) : (
             <>
               <div className={styles.list}>
