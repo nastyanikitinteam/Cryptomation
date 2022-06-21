@@ -39,6 +39,19 @@
 
 @media (max-width: 768px) {
   .section {
-    padding: 70px 0;
+    padding: 60px 0 60px;
+    h2 {
+      font-size: 66px;
+      line-height: 52px;
+    }
+  }
+  .questionList {
+    padding-right: 0;
+  }
+  .bottom {
+    margin-top: 45px;
+  }
+  .content {
+    margin-top: 40px;
   }
 }

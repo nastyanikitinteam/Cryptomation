@@ -23,7 +23,7 @@ const Header = () => {
   }, []);
 
   const handleScroll = () => {
-    setStick(window.scrollY > 35);
+    isOpenMenu === false && setStick(window.scrollY > 35);
   };
 
   useEffect(() => {

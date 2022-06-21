@@ -23,12 +23,31 @@
     order: -1;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .text {
     width: 50%;
   }
   .info {
     width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+    width: 100%;
+    text-align: center;
+    order: 2;
+    margin-top: 41px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    max-width: 375px;
+  }
+  .logo {
+    margin: 0 auto 23px;
   }
 }

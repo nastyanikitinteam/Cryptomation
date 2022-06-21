@@ -21,3 +21,14 @@
     margin-left: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .item {
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import { useMediaQuery } from 'react-responsive';
 import QuestionList from './QuestionList/QuestionList';
 import Bottom from './Bottom/Bottom';
 import styles from './footer.module.scss';
@@ -7,6 +7,7 @@ import styles from './footer.module.scss';
 import LogoSVG from '../../assets/images/logo.svg';
 
 const Footer = () => {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
   return (
     <div className={styles.section}>
       <div className="wrapper">
@@ -14,11 +15,14 @@ const Footer = () => {
           have a <br /> question?
         </h2>
         <div className={styles.content}>
-          <Link href="/123">
-            <a className={styles.logo}>
-              <LogoSVG />
-            </a>
-          </Link>
+          {!isMobile && (
+            <Link href="/123">
+              <a className={styles.logo}>
+                <LogoSVG />
+              </a>
+            </Link>
+          )}
+
           <div className={styles.questionList}>
             <QuestionList />
           </div>
