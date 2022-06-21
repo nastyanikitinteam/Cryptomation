@@ -8,6 +8,9 @@
   background-color: #03031a;
   padding: 185px 0 120px;
 }
+.brMobile {
+  display: none;
+}
 
 .subtitle {
   font-weight: 500;
@@ -75,4 +78,24 @@
 
 .scheme {
   margin: -100px auto -54px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 118px 0 70px;
+  }
+  .brMobile {
+    display: block;
+  }
+  .brDesktop {
+    display: none;
+  }
+  .subtitle {
+    padding: 0 10px;
+  }
+  .scheme {
+    margin: 30px auto -13px;
+    width: calc(100% + 30px);
+    transform: translateX(-15px);
+  }
 }
