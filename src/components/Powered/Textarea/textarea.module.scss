@@ -4,6 +4,11 @@
   background: linear-gradient(179.27deg, #50104c 0.63%, #11073b 241.08%);
   border-radius: 15px;
   padding: 8px 15px 21px;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .blockImage {
@@ -11,6 +16,7 @@
 }
 
 .text {
+  width: 100%;
   max-height: 162px;
   min-height: 162px;
   height: 100%;

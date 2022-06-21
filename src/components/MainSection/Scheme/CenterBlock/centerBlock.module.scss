@@ -1,0 +1,30 @@
+.animate {
+  fill: black;
+  .el1 {
+    animation: elOpacity 2s linear infinite forwards;
+    animation-delay: 1.6s;
+  }
+  .el2 {
+    animation: elOpacity 2s linear infinite forwards;
+    animation-delay: 1.8s;
+  }
+  .el3 {
+    animation: elOpacity 2s linear infinite forwards;
+    animation-delay: 2s;
+  }
+}
+
+@keyframes elOpacity {
+  0% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
