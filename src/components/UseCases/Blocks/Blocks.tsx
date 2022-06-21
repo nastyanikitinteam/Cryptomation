@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState, useLayoutEffect } from 'react';
 import Block from '../Block/Block';
-import BlocksHeight from '../../BlocksHeight/BlocksHeight';
 
 import styles from './blocks.module.scss';
 
@@ -59,15 +58,13 @@ const Blocks = () => {
 
   return (
     <div className={styles.blocks}>
-      <BlocksHeight>
-        {arr.map((item) => {
-          return (
-            <div className={styles.block} key={item.id}>
-              <Block item={item} />
-            </div>
-          );
-        })}
-      </BlocksHeight>
+      {arr.map((item) => {
+        return (
+          <div className={styles.block} key={item.id}>
+            <Block item={item} />
+          </div>
+        );
+      })}
     </div>
   );
 };

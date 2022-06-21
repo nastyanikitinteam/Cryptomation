@@ -3,9 +3,7 @@
 <rect width="1350" height="395" fill="white"/>
 </mask>
 <g mask="url(#mask0_0_1213)">
-<g filter="url(#filter0_b_0_1213)">
 <circle cx="675" cy="268" r="53" fill="white"/>
-</g>
 <mask id="mask1_0_1213" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="650" y="240" width="50" height="57">
 <rect x="650.909" y="240.697" width="48.1818" height="56.2121" fill="white"/>
 </mask>

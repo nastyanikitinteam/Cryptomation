@@ -29,17 +29,15 @@ const Scheme = () => {
         </mask>
 
         <g id="center-block">
-          <g filter="url(#filter1_b_0_1213)">
-            <rect
-              x="584"
-              y="94"
-              width="182"
-              height="63"
-              rx="31.5"
-              fill="#86266E"
-              fillOpacity="0.65"
-            />
-          </g>
+          <rect
+            x="584"
+            y="94"
+            width="182"
+            height="63"
+            rx="31.5"
+            fill="#86266E"
+            fillOpacity="0.65"
+          />
           <mask
             id="mask2_0_1213"
             maskUnits="userSpaceOnUse"
