@@ -1,0 +1,96 @@
+.bottom {
+  transform: translateX(1px);
+}
+.title {
+  transform: translate(0, 25.5px);
+  opacity: 0;
+}
+
+.title-0 {
+  opacity: 1;
+}
+.isAnimate.title-0 {
+  opacity: 1;
+  animation: hideTitle 0.3s linear forwards;
+  animation-delay: 0.2s;
+}
+
+.stopAnimate.title-0 {
+  animation: hideTitle 0.5s linear forwards reverse;
+}
+
+.isAnimate.title-1 {
+  animation: showTitle 1s linear forwards;
+  animation-delay: 0.5s;
+}
+.isAnimate.title-2 {
+  animation: showTitle 1s linear forwards;
+  animation-delay: 1.5s;
+}
+.isAnimate.title-3 {
+  animation: showTitle 1s linear forwards;
+  animation-delay: 2.5s;
+}
+
+.isAnimate.title-4 {
+  animation: hideTitle 0.3s linear forwards reverse;
+  animation-delay: 3.5s;
+}
+
+.dots {
+  opacity: 0;
+}
+
+.dots1 {
+  opacity: 1;
+}
+
+.isAnimate.dots1 {
+  animation: hideDots 0.3s linear forwards;
+  animation-delay: 0s;
+}
+
+.isAnimate.dots2 {
+  animation: hideDots 0.3s linear forwards reverse;
+  animation-delay: 3.5s;
+}
+
+@keyframes hideDots {
+  0% {
+    transform: translate(0px, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(10px, 0);
+    opacity: 0;
+  }
+}
+@keyframes hideTitle {
+  0% {
+    transform: translate(0px, 25.5px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(20px, 25.5px);
+    opacity: 0;
+  }
+}
+
+@keyframes showTitle {
+  0% {
+    transform: translate(20px, 25.5px);
+    opacity: 0;
+  }
+  40% {
+    transform: translate(0, 25.5px);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(0, 25.5px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(20px, 25.5px);
+    opacity: 0;
+  }
+}

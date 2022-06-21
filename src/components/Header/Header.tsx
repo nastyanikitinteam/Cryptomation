@@ -1,16 +1,20 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import cn from "classnames"
+import cn from 'classnames';
 
 import HeaderList from './HeaderList/HeaderList';
 import HeaderEnter from './HeaderEnter/HeaderEnter';
 import styles from './header.module.scss';
 
-import LogoSVG from '../../assets/images/logo.svg';
-import LogoBlackSVG from '../../assets/images/logo_black.svg';
+import Logo from './Logo/Logo';
 
 const Header = () => {
   const [stick, setStick] = useState(false);
+  const [isAnimate, setIsAnimate] = useState(false);
+
+  useEffect(() => {
+    setIsAnimate(true);
+  }, []);
 
   const handleScroll = () => {
     setStick(window.scrollY > 35);
@@ -28,8 +32,11 @@ const Header = () => {
       <div className="wrapper">
         <div className={styles.content}>
           <Link href="/123">
-            <a className={styles.logo}>
-              {stick ? <LogoBlackSVG /> : <LogoSVG />}
+            <a
+              className={styles.logo}
+              onMouseEnter={() => isAnimate === false && setIsAnimate(true)}
+            >
+              <Logo isAnimate={isAnimate} setIsAnimate={setIsAnimate} />
             </a>
           </Link>
           <div className={styles.list}>

@@ -17,6 +17,9 @@
   .content {
     padding: 15px 0;
   }
+  .logo path {
+    fill: $black;
+  }
 }
 
 .content {
@@ -24,16 +27,17 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 50px 0 50px;
+  transition: all 0.3s ease-in;
 }
 
 .logo {
-  max-width: 105px;
+  max-width: 185px;
   width: 100%;
 }
 
 .list {
   margin: 0 auto;
-  padding: 17px 0 0 14%;
+  padding: 17px 0 0 8%;
 }
 
 .enter {
