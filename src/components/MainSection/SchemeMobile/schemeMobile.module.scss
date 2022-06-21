@@ -1,0 +1,43 @@
+.animate {
+  .el1 {
+    animation: elOpacity 1s linear infinite forwards;
+    animation-delay: 1s;
+  }
+  .el2 {
+    animation: elOpacity 1s linear infinite forwards;
+    animation-delay: 1.2s;
+  }
+  .el3 {
+    animation: elOpacity 1s linear infinite forwards;
+    animation-delay: 1.4s;
+  }
+}
+
+@keyframes elOpacity {
+  0% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.lines {
+  stroke-dasharray: 5;
+  animation: dashdraw 1s linear infinite;
+}
+.reverseLines {
+  stroke-dasharray: 5;
+  animation: dashdraw 1.5s linear reverse infinite;
+}
+@keyframes dashdraw {
+  0% {
+    stroke-dashoffset: 10;
+  }
+}

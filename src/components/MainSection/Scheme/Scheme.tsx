@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { FC } from 'react';
 import styles from './scheme.module.scss';
 
 import GreyLines from './GreyLines/GreyLines';
@@ -6,14 +6,11 @@ import Logos from './Logos/Logos';
 import SmallLines from './SmallLines/SmallLines';
 import CenterBlock from './CenterBlock/CenterBlock';
 
-const Scheme = () => {
-  const [isAnimate, setIsAnimate] = useState(false);
+interface IProps {
+  isAnimate: boolean;
+}
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsAnimate(true);
-    }, 1000);
-  }, []);
+const Scheme: FC<IProps> = ({ isAnimate }) => {
   return (
     <>
       <svg
@@ -949,12 +946,8 @@ const Scheme = () => {
             gradientUnits="userSpaceOnUse"
           >
             <stop stop-color="white" />
-            <stop
-              offset="0.514733"
-              stop-color="white"
-              stop-opacity="0.903398"
-            />
-            <stop offset="1" stop-color="#390B34" stop-opacity="0.01" />
+            <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
+            <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_0_1213"
@@ -965,12 +958,8 @@ const Scheme = () => {
             gradientUnits="userSpaceOnUse"
           >
             <stop stop-color="white" />
-            <stop
-              offset="0.514733"
-              stop-color="white"
-              stop-opacity="0.903398"
-            />
-            <stop offset="1" stop-color="#390B34" stop-opacity="0.01" />
+            <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
+            <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_0_1213"
@@ -981,12 +970,8 @@ const Scheme = () => {
             gradientUnits="userSpaceOnUse"
           >
             <stop stop-color="white" />
-            <stop
-              offset="0.514733"
-              stop-color="white"
-              stop-opacity="0.903398"
-            />
-            <stop offset="1" stop-color="#390B34" stop-opacity="0.01" />
+            <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
+            <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
           </linearGradient>
         </defs>
       </svg>

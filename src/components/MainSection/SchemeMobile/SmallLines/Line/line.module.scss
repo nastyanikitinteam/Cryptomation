@@ -1,0 +1,165 @@
+.line {
+  opacity: 0;
+}
+
+.isAnimate {
+  opacity: 1;
+}
+
+.isAnimate.line-0 {
+  animation: animateLine0 2s linear infinite forwards;
+}
+
+.isAnimate.line-1 {
+  clip-path: inset(0% 100% 0% 0%);
+  animation: animateLine1 2s linear infinite forwards;
+  animation-delay: 1s;
+}
+
+.isAnimate.line-2 {
+  animation: animateLine2 2s linear infinite forwards;
+}
+
+.isAnimate.line-3 {
+  animation: animateLine3 2s linear infinite forwards;
+  animation-delay: 1s;
+  clip-path: inset(0% 100% 0% 0%);
+}
+.isAnimate.line-4 {
+  clip-path: inset(0% 0% 0% 100%);
+  animation: animateLine4 2s linear infinite forwards;
+  animation-delay: 1s;
+}
+
+.isAnimate.line-5 {
+  animation: animateLine5 2s linear infinite forwards;
+}
+
+.isAnimate.line-6 {
+  clip-path: inset(0% 0% 0% 100%);
+  animation: animateLine6 2s linear infinite forwards;
+  animation-delay: 1s;
+}
+
+.isAnimate.line-7 {
+  animation: animateLine7 2s linear infinite forwards;
+}
+
+@keyframes animateLine0 {
+  0% {
+    clip-path: inset(0% 100% 0% 0%);
+  }
+  10% {
+    clip-path: inset(0% 80% 0% 0%);
+  }
+  90% {
+    clip-path: inset(0% 0% 0% 80%);
+  }
+  100% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+}
+
+@keyframes animateLine1 {
+  0% {
+    clip-path: inset(0% 100% 0% 0%);
+  }
+  10% {
+    clip-path: inset(0% 90% 0% 0%);
+  }
+  90% {
+    clip-path: inset(0% 0% 0% 75%);
+  }
+  100% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+}
+
+@keyframes animateLine2 {
+  0% {
+    clip-path: inset(0% 100% 0% 0%);
+  }
+  10% {
+    clip-path: inset(0% 70% 0% 0%);
+  }
+  90% {
+    clip-path: inset(0% 0% 0% 70%);
+  }
+  100% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+}
+
+@keyframes animateLine3 {
+  0% {
+    clip-path: inset(0% 100% 0% 0%);
+  }
+  10% {
+    clip-path: inset(0% 80% 0% 0%);
+  }
+  90% {
+    clip-path: inset(0% 0% 0% 80%);
+  }
+  100% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+}
+
+@keyframes animateLine4 {
+  0% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+  10% {
+    clip-path: inset(0% 0% 15% 80%);
+  }
+  90% {
+    clip-path: inset(0% 80% 0% 0%);
+  }
+  100% {
+    clip-path: inset(0% 100% 0% 0%);
+  }
+}
+
+@keyframes animateLine5 {
+  0% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+  10% {
+    clip-path: inset(0% 0% 0% 86%);
+  }
+  90% {
+    clip-path: inset(0% 86% 0% 0%);
+  }
+  100% {
+    clip-path: inset(0% 100% 0% 0%);
+  }
+}
+@keyframes animateLine6 {
+  0% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+  10% {
+    clip-path: inset(0% 0% 0% 80%);
+  }
+  90% {
+    clip-path: inset(0% 80% 0% 0%);
+  }
+  100% {
+    clip-path: inset(0% 100% 0% 0%);
+  }
+}
+
+@keyframes animateLine7 {
+  0% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+  10% {
+    clip-path: inset(0% 0% 0% 88%);
+  }
+  90% {
+    clip-path: inset(0% 88% 0% 0%);
+  }
+  100% {
+    clip-path: inset(0% 100% 0% 0%);
+  }
+}

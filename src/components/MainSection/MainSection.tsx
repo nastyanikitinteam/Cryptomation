@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Scheme from './Scheme/Scheme';
 import SchemeMobile from './SchemeMobile/SchemeMobile';
@@ -6,7 +7,16 @@ import { useMediaQuery } from 'react-responsive';
 import styles from './mainSection.module.scss';
 
 const MainSection = () => {
+  const [isAnimate, setIsAnimate] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsAnimate(true);
+    }, 1000);
+  }, []);
+
   const isMobile = useMediaQuery({ maxWidth: 768 });
+
   return (
     <div className={styles.section}>
       <div className="wrapper wrapper-big">
@@ -23,7 +33,11 @@ const MainSection = () => {
           <span className={styles.blue}>JDBC</span>.
         </h2>
         <div className={styles.scheme}>
-          {isMobile ? <SchemeMobile /> : <Scheme />}
+          {isMobile ? (
+            <SchemeMobile isAnimate={isAnimate} />
+          ) : (
+            <Scheme isAnimate={isAnimate} />
+          )}
         </div>
         <div className={styles.button}>
           <Link href="/123">

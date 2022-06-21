@@ -115,12 +115,8 @@ const CenterBlock: FC<IProps> = ({ isAnimate }) => {
             gradientUnits="userSpaceOnUse"
           >
             <stop stop-color="white" />
-            <stop
-              offset="0.514733"
-              stop-color="white"
-              stop-opacity="0.903398"
-            />
-            <stop offset="1" stop-color="#390B34" stop-opacity="0.01" />
+            <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
+            <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
           </linearGradient>
         </defs>
       </svg>

@@ -1,4 +1,14 @@
-const SchemeMobile = () => {
+import { FC } from 'react';
+import cn from 'classnames';
+import SmallLines from './SmallLines/SmallLines';
+
+import styles from './schemeMobile.module.scss';
+
+interface IProps {
+  isAnimate: boolean;
+}
+
+const SchemeMobile: FC<IProps> = ({ isAnimate }) => {
   return (
     <svg
       width="375"
@@ -32,6 +42,7 @@ const SchemeMobile = () => {
           fill="white"
         />
       </mask>
+
       <g mask="url(#mask0_3_413)">
         <path
           d="M175.045 127.374C174.438 127.374 173.896 127.146 173.42 126.689C172.943 126.233 172.705 125.678 172.705 125.025V106.887C172.705 106.256 172.943 105.707 173.42 105.239C173.896 104.772 174.438 104.538 175.045 104.538H182.422C183.094 104.538 183.652 104.772 184.096 105.239C184.54 105.707 184.762 106.256 184.762 106.887V111.128L181.74 111.813V108.746C181.74 108.442 181.637 108.17 181.431 107.931C181.225 107.691 180.949 107.572 180.602 107.572H176.897C176.594 107.572 176.323 107.691 176.085 107.931C175.846 108.17 175.727 108.442 175.727 108.746V123.166C175.727 123.514 175.846 123.797 176.085 124.014C176.323 124.232 176.594 124.34 176.897 124.34H180.602C180.949 124.34 181.225 124.232 181.431 124.014C181.637 123.797 181.74 123.514 181.74 123.166V120.784L184.762 120.067V125.025C184.762 125.678 184.54 126.233 184.096 126.689C183.652 127.146 183.094 127.374 182.422 127.374H175.045Z"
@@ -41,27 +52,33 @@ const SchemeMobile = () => {
           d="M187.907 127.374V104.538H190.93L195.447 118.468L199.965 104.538H202.988V127.374H199.965V113.803L196.942 123.101H193.952L190.93 113.803V127.374H187.907Z"
           fill="#230F49"
         />
-        <rect
-          x="172.931"
-          y="132.001"
-          width="7.84499"
-          height="7.87465"
-          fill="#FFCF5E"
-        />
-        <rect
-          x="184.138"
-          y="132.001"
-          width="7.84499"
-          height="7.87465"
-          fill="#FF7340"
-        />
-        <rect
-          x="195.345"
-          y="132.001"
-          width="7.84499"
-          height="7.87465"
-          fill="#20C4FF"
-        />
+
+        <g className={cn({ [styles.animate]: isAnimate })}>
+          <rect
+            x="172.931"
+            y="132.001"
+            width="7.84499"
+            height="7.87465"
+            fill="#FFCF5E"
+            className={styles.el1}
+          />
+          <rect
+            x="184.138"
+            y="132.001"
+            width="7.84499"
+            height="7.87465"
+            fill="#FF7340"
+            className={styles.el2}
+          />
+          <rect
+            x="195.345"
+            y="132.001"
+            width="7.84499"
+            height="7.87465"
+            fill="#20C4FF"
+            className={styles.el3}
+          />
+        </g>
       </g>
       <g filter="url(#filter1_b_3_413)">
         <rect
@@ -192,6 +209,7 @@ const SchemeMobile = () => {
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-dasharray="2.8"
+        className={styles.reverseLines}
       />
       <path
         d="M220.995 41.3261C220.995 41.3261 218.901 71.8714 190.989 82.6521"
@@ -200,6 +218,7 @@ const SchemeMobile = () => {
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-dasharray="2.8"
+        className={styles.reverseLines}
       />
       <path
         d="M187.5 49.7312L187.849 80.9008"
@@ -208,6 +227,7 @@ const SchemeMobile = () => {
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-dasharray="2.8"
+        className={styles.reverseLines}
       />
       <ellipse
         cx="187.5"
@@ -223,24 +243,28 @@ const SchemeMobile = () => {
         d="M59.501 130C59.501 130 88.0584 101 150.47 101"
         stroke="#A95094"
         stroke-dasharray="4"
+        className={styles.lines}
       />
       <path
         opacity="0.6"
         d="M67.2002 215.4C67.2002 215.4 76.3281 134.8 149.47 119"
         stroke="#A95094"
         stroke-dasharray="4"
+        className={styles.lines}
       />
       <path
         opacity="0.6"
         d="M135.054 167.2C135.054 167.2 150.908 153.708 155.6 143.11"
         stroke="#A95094"
         stroke-dasharray="4"
+        className={styles.lines}
       />
       <path
         opacity="0.6"
         d="M148.262 234.813C148.262 234.813 168.31 210.4 176.6 159.11"
         stroke="#A95094"
         stroke-dasharray="4"
+        className={styles.lines}
       />
       <g opacity="0.5" filter="url(#filter2_f_3_413)">
         <circle cx="70.3" cy="246.7" r="30.3" fill="#F3BA2F" />
@@ -361,24 +385,28 @@ const SchemeMobile = () => {
         d="M315.411 130C315.411 130 286.854 101 224.442 101"
         stroke="#A95094"
         stroke-dasharray="4"
+        className={styles.lines}
       />
       <path
         opacity="0.6"
         d="M307.712 215.4C307.712 215.4 298.584 134.8 225.442 119"
         stroke="#A95094"
         stroke-dasharray="4"
+        className={styles.lines}
       />
       <path
         opacity="0.6"
         d="M239.858 167.2C239.858 167.2 224.004 153.708 219.313 143.11"
         stroke="#A95094"
         stroke-dasharray="4"
+        className={styles.lines}
       />
       <path
         opacity="0.6"
         d="M226.65 234.813C226.65 234.813 206.602 210.4 198.312 159.11"
         stroke="#A95094"
         stroke-dasharray="4"
+        className={styles.lines}
       />
       <g opacity="0.5" filter="url(#filter14_f_3_413)">
         <circle
@@ -478,6 +506,7 @@ const SchemeMobile = () => {
         d="M264.027 181.022L259.853 187.222C259.565 187.644 260.12 188.156 260.519 187.8L264.626 184.222C264.737 184.133 264.892 184.2 264.892 184.356V195.533C264.892 195.689 264.693 195.756 264.604 195.644L252.173 180.756C251.774 180.267 251.196 180 250.553 180H250.109C248.954 180 248 180.956 248 182.133V197.867C248 199.044 248.954 200 250.131 200C250.863 200 251.552 199.622 251.951 198.978L256.124 192.778C256.413 192.356 255.858 191.844 255.458 192.2L251.352 195.756C251.241 195.844 251.085 195.778 251.085 195.622V184.467C251.085 184.311 251.285 184.244 251.374 184.356L263.805 199.244C264.204 199.733 264.804 200 265.425 200H265.869C267.046 200 268 199.044 268 197.867V182.133C268 180.956 267.046 180 265.869 180C265.114 180 264.426 180.378 264.027 181.022Z"
         fill="white"
       />
+      <SmallLines isAnimate={isAnimate} />
       <defs>
         <filter
           id="filter0_b_3_413"
@@ -1271,8 +1300,8 @@ const SchemeMobile = () => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-color="white" />
-          <stop offset="0.514733" stop-color="white" stop-opacity="0.903398" />
-          <stop offset="1" stop-color="#390B34" stop-opacity="0.01" />
+          <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
+          <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_3_413"
@@ -1283,8 +1312,8 @@ const SchemeMobile = () => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-color="white" />
-          <stop offset="0.514733" stop-color="white" stop-opacity="0.903398" />
-          <stop offset="1" stop-color="#390B34" stop-opacity="0.01" />
+          <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
+          <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_3_413"
@@ -1295,8 +1324,8 @@ const SchemeMobile = () => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-color="white" />
-          <stop offset="0.514733" stop-color="white" stop-opacity="0.903398" />
-          <stop offset="1" stop-color="#390B34" stop-opacity="0.01" />
+          <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
+          <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
         </linearGradient>
       </defs>
     </svg>
