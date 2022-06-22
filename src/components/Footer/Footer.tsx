@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useMediaQuery } from 'react-responsive';
+import useMediaQuery from '../../utils/useMediaQuery';
 import QuestionList from './QuestionList/QuestionList';
 import Bottom from './Bottom/Bottom';
 import styles from './footer.module.scss';
@@ -7,7 +7,7 @@ import styles from './footer.module.scss';
 import LogoSVG from '../../assets/images/logo.svg';
 
 const Footer = () => {
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isMobile = useMediaQuery(768);
   return (
     <div className={styles.section}>
       <div className="wrapper">

@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import Link from 'next/link';
 import cn from 'classnames';
-import { useMediaQuery } from 'react-responsive';
+import useMediaQuery from '../../utils/useMediaQuery';
 
 import HeaderList from './HeaderList/HeaderList';
 import HeaderEnter from './HeaderEnter/HeaderEnter';
@@ -14,7 +14,11 @@ const Header = () => {
   const [stick, setStick] = useState(false);
   const [isAnimate, setIsAnimate] = useState(false);
   const [isOpenMenu, setIsOpenMenu] = useState(false);
-  const isMobile = useMediaQuery({ maxWidth: 998 });
+  const isMobile = useMediaQuery(998);
+
+  useEffect(() => {
+    document.body.className = isOpenMenu ? 'is-open' : '';
+  }, [isOpenMenu]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -36,7 +40,13 @@ const Header = () => {
   const onChangeMenu = () => setIsOpenMenu((prev) => !prev);
 
   return (
-    <div className={cn(styles.header, { [styles.stick]: stick })}>
+    <div
+      className={cn(
+        styles.header,
+        { [styles.stick]: stick },
+        { [styles.openMenu]: isOpenMenu }
+      )}
+    >
       <div className="wrapper">
         <div className={styles.content}>
           <Link href="/123">
@@ -47,20 +57,15 @@ const Header = () => {
               <Logo isAnimate={isAnimate} setIsAnimate={setIsAnimate} />
             </a>
           </Link>
+          <MobileMenu isOpenMenu={isOpenMenu} />
 
-          {isMobile ? (
-            <MobileMenu isOpenMenu={isOpenMenu} />
-          ) : (
-            <>
-              <div className={styles.list}>
-                <HeaderList stick={stick} />
-              </div>
+          <div className={styles.list}>
+            <HeaderList stick={stick} />
+          </div>
 
-              <div className={styles.enter}>
-                <HeaderEnter stick={stick} />
-              </div>
-            </>
-          )}
+          <div className={styles.enter}>
+            <HeaderEnter stick={stick} />
+          </div>
 
           {isMobile && (
             <div

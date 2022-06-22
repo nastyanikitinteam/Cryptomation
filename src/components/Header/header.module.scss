@@ -17,8 +17,13 @@
   .content {
     padding: 15px 0;
   }
-  .logo path {
-    fill: $black;
+  &:not(.openMenu) {
+    .logo path {
+      fill: $black;
+    }
+    .menuButton span {
+      background: $black;
+    }
   }
 }
 
@@ -93,6 +98,15 @@
   }
 }
 
+@media (max-width: 998px) {
+  .list {
+    display: none;
+  }
+
+  .enter {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .header {
     position: fixed;

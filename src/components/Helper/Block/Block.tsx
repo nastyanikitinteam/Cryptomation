@@ -1,4 +1,4 @@
-import { ReactNode, FC } from 'react';
+import React, { ReactNode, useCallback, FC } from 'react';
 import Link from 'next/link';
 import Textarea from '../Textarea/Textarea';
 
@@ -12,18 +12,30 @@ interface IProps {
   link: string;
 }
 
+const exceptions = '{}[],:';
+const stringExample = `{
+
+"safeLow":{"maxPriorityFee":31.5333333532,"maxFee":31.5333333682},"standard":{"maxPriorityFee":33.69552669306667,"maxFee":33.695526708066666},"fast":{"maxPriorityFee":45.4303030196,"maxFee":45.430303034599994},"estimatedBaseFee":1.5e-8,"blockTime":3,"blockNumber":29307096
+
+}`;
+
 const Block: FC<IProps> = ({ id, title, text, link }) => {
+  const addingSpan = (string: string) => {
+    return string
+      .split('')
+      .map((item) => (
+        <React.Fragment>
+          {exceptions.includes(item) ? <span>{item}</span> : item}
+        </React.Fragment>
+      ));
+  };
+
   return (
     <div className={styles.content}>
       <h3 className={styles.title}>{title}</h3>
       <div className={styles.textarea}>
         <Textarea>
-          {id === 0 &&
-            `{
-
-"safeLow":{"maxPriorityFee":31.5333333532,"maxFee":31.5333333682},"standard":{"maxPriorityFee":33.69552669306667,"maxFee":33.695526708066666},"fast":{"maxPriorityFee":45.4303030196,"maxFee":45.430303034599994},"estimatedBaseFee":1.5e-8,"blockTime":3,"blockNumber":29307096
-
-}`}
+          {id === 0 && addingSpan(stringExample)}
           {id === 1 &&
             `{
 

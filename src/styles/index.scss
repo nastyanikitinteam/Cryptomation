@@ -136,3 +136,7 @@ svg {
   z-index: 100;
   color: $yellow;
 }
+
+.is-open {
+  overflow: hidden;
+}

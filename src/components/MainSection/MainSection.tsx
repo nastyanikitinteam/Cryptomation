@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Scheme from './Scheme/Scheme';
 import SchemeMobile from './SchemeMobile/SchemeMobile';
-import { useMediaQuery } from 'react-responsive';
+import useMediaQuery from '../../utils/useMediaQuery';
 
 import styles from './mainSection.module.scss';
 
@@ -15,7 +15,7 @@ const MainSection = () => {
     }, 1000);
   }, []);
 
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isMobile = useMediaQuery(768);
 
   return (
     <div className={styles.section}>
