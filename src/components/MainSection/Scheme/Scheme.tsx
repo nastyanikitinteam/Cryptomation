@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import styles from './scheme.module.scss';
+import cn from 'classnames';
 
 import GreyLines from './GreyLines/GreyLines';
 import Logos from './Logos/Logos';
@@ -32,7 +33,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
           <rect width="1350" height="395" fill="white" />
         </mask>
 
-        <g id="center-block">
+        <g id="center-block" className={cn({ [styles.isAnimate]: isAnimate })}>
           <rect
             x="584"
             y="94"
@@ -93,7 +94,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
           >
             <rect x="604" y="109" width="33" height="33" fill="white" />
           </mask>
-          <g mask="url(#mask3_0_1213)" fill="white">
+          <g mask="url(#mask3_0_1213)" fill="white" className={styles.icon}>
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
@@ -110,7 +111,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
           >
             <rect x="713" y="109" width="33" height="33" fill="white" />
           </mask>
-          <g mask="url(#mask4_0_1213)" fill="white">
+          <g mask="url(#mask4_0_1213)" fill="white" className={styles.icon}>
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"

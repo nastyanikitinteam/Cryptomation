@@ -11,8 +11,30 @@
   height: 500px;
 }
 
+.isAnimate {
+  .icon {
+    animation: iconJump 2s linear infinite;
+    animation-delay: 2.5s;
+  }
+}
+
 @keyframes dashdraw {
   0% {
     stroke-dashoffset: 10;
+  }
+}
+
+@keyframes iconJump {
+  0% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
