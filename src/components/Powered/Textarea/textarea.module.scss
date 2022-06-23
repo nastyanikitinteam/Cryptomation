@@ -5,14 +5,14 @@
   border-radius: 15px;
   padding: 8px 15px 21px;
   min-height: 220px;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
 }
 
 .blockImage {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
