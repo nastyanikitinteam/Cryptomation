@@ -16,6 +16,8 @@
   transform: translateY(0px);
   .content {
     padding: 15px 0;
+    padding: 15px 0 0;
+    margin-bottom: -2px;
   }
   &:not(.openMenu) {
     .logo path {
@@ -117,11 +119,6 @@
   .stick {
     .content {
       padding: 20px 15px 5px;
-    }
-    .menuButton {
-      span {
-        background: $black;
-      }
     }
   }
 }
