@@ -1,4 +1,5 @@
 import Blocks from './Blocks/Blocks';
+import cn from 'classnames';
 
 import styles from './helper.module.scss';
 
@@ -7,7 +8,7 @@ import El2 from '../../assets/images/Powered/brackets_yellow.svg';
 
 const Helper = () => {
   return (
-    <div className={styles.section}>
+    <div className={cn('section', styles.section)}>
       <div className="wrapper">
         <div className={styles.el1}>
           <El1 />

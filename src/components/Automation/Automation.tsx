@@ -1,4 +1,5 @@
 import useMediaQuery from '../../utils/useMediaQuery';
+import cn from 'classnames';
 
 import Scheme from './Scheme/Scheme';
 import SchemeMobile from './SchemeMobile/SchemeMobile';
@@ -12,7 +13,7 @@ const Automation = () => {
   const isMobile = useMediaQuery(768);
 
   return (
-    <div className={styles.section}>
+    <div className={cn('section', styles.section)}>
       <div className="wrapper">
         <div className={styles.el1}>
           <El1 />

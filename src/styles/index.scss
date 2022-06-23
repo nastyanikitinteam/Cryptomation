@@ -51,6 +51,14 @@ a {
   }
 }
 
+.section {
+  background-image: url(../assets/images/mainSection/back.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #03031a;
+}
+
 .button {
   display: flex;
   justify-content: center;

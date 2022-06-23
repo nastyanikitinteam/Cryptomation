@@ -1,10 +1,11 @@
 import Blocks from './Blocks/Blocks';
+import cn from 'classnames';
 
 import styles from './pricing.module.scss';
 
 const Pricing = () => {
   return (
-    <div className={styles.section}>
+    <div className={cn('section', styles.section)}>
       <div className="wrapper">
         <h2 className="title white">Pricing</h2>
         <p className={styles.text}>

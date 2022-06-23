@@ -23,7 +23,7 @@ const MainSection = () => {
   const isMobile = useMediaQuery(768);
 
   return (
-    <div className={styles.section}>
+    <div className={cn('section', styles.section)}>
       <div className="wrapper wrapper-big">
         <h1 className="mainTitle">
           We give you <br className={styles.brMobile} /> access
