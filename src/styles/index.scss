@@ -12,7 +12,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   position: relative;
-  overflow: hidden;
 }
 
 .wrapper-big {
@@ -21,6 +20,10 @@ body {
 
 a {
   transition: all 0.3s ease-in;
+}
+
+.page {
+  overflow: hidden;
 }
 
 .yellowBlock {
@@ -81,6 +84,10 @@ a {
   color: $black;
   background: transparent;
   border: 1px solid rgba($black, 0.2);
+  &:hover {
+    background: transparent;
+    border-color: $black;
+  }
 }
 
 .mainTitle {

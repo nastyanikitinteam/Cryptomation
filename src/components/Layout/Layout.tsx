@@ -13,7 +13,7 @@ interface IProps {
 
 const Layout: FC<IProps> = ({ title = 'Страница', children }) => {
   return (
-    <div className={styles['app']}>
+    <div className={(styles['app'], 'page')}>
       <Head>
         <title>{title}</title>
       </Head>
