@@ -30,6 +30,28 @@
   margin-top: 20px;
 }
 
+.yellowBlock {
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffcf5e 0%, #ffb55e 135.22%);
+  line-height: 23px;
+  margin-right: 3px;
+  margin-left: 3px;
+
+  span {
+    background: linear-gradient(180deg, #ffcf5e 0%, #ffb55e 135.22%);
+    padding: 0px 5px 0px;
+    color: rgba($black, 0.7);
+    display: inline-block;
+    &:first-child {
+      border-radius: 5px 5px 5px 5px;
+      margin-right: -5px;
+    }
+    &:last-child {
+      border-radius: 5px 5px 5px 5px;
+    }
+  }
+}
+
 @media (max-width: 998px) {
   .content {
     flex-direction: column;

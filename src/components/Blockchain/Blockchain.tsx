@@ -12,9 +12,10 @@ const Blockchain = () => {
               Fast <br /> blockhain <br /> nodes
             </h2>
             <p className={styles.text}>
-              Deploy fast blockchain node in 5 minutes: getting reliable <br />
-              <span className="yellowBlock first">
-                access to the Ethereum/Polygon/Binance
+              Deploy fast blockchain node in 5 minutes: getting reliable
+              <span className={styles.yellowBlock}>
+                <span>access to the</span>
+                <span>Ethereum/Polygon/Binance</span>
               </span>
               and IPFS networks so you can focus on building and scaling web3
               software.

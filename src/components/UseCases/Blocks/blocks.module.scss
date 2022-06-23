@@ -30,6 +30,7 @@
   }
   .block {
     width: calc(50% - 20px);
+    min-height: 0;
   }
 }
 @media (max-width: 600px) {

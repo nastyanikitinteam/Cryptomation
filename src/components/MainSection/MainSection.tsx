@@ -26,16 +26,18 @@ const MainSection = () => {
     <div className={styles.section}>
       <div className="wrapper wrapper-big">
         <h1 className="mainTitle">
-          We give you <br className={styles.brMobile} /> access{' '}
+          We give you <br className={styles.brMobile} /> access
           <br className={styles.brDesktop} /> to a sea of crypto data.
         </h1>
         <h2 className={styles.subtitle}>
           <span className="yellowBlock">Build your own apps</span> using this
-          data for your automation, <br /> analytics through standard
-          development tools such as{' '}
-          <span className={styles.yellow}>Rest API</span> /
-          <span className={styles.red}>gRPC</span> /
-          <span className={styles.blue}>JDBC</span>.
+          data for your automation,analytics through standard development tools
+          such as{' '}
+          <span className={styles.other}>
+            <span className={styles.yellow}>Rest API</span> /
+            <span className={styles.red}>gRPC</span> /
+            <span className={styles.blue}>JDBC</span>.
+          </span>
         </h2>
         <div className={cn(styles.scheme, { [styles.isShow]: isShow })}>
           {isMobile ? (
