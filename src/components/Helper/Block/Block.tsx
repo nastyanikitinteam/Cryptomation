@@ -37,6 +37,9 @@ const stringExample3 = `"quote":
 "market_cap_dominance": 51, 
 "fully_diluted_market_cap": 952835089431.14, 
 "last_updated": "2018-08-09T21:56:28.000Z"
+"last_updated": "2018-08-09T21:56:28.000Z"
+"last_updated": "2018-08-09T21:56:28.000Z"
+"last_updated": "2018-08-09T21:56:28.000Z"
 }
 
 }`;
