@@ -25,6 +25,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  path {
+    transition: all 0.3s ease-in;
+  }
+  &:hover {
+    path {
+      fill: $violet;
+    }
+  }
 }
 
 @media (max-width: 768px) {

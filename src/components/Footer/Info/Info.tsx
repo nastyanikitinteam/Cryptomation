@@ -27,7 +27,7 @@ const Info = () => {
         );
       })}
       <Link href="/1">
-        <a className={styles.twiter}>
+        <a className={styles.twitter}>
           <TwitterIcon />
         </a>
       </Link>

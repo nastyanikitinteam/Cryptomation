@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState, useMemo } from 'react';
 
 const useMediaQuery = (width: number) => {
-  const [targetReached, setTargetReached] = useState<boolean>(null);
+  const [targetReached, setTargetReached] = useState<boolean | null>(null);
 
   const updateTarget = useCallback((e: any) => {
     if (e.matches) {
