@@ -3,7 +3,7 @@
 .block {
   background: linear-gradient(179.27deg, #50104c 0.63%, #11073b 241.08%);
   border-radius: 15px;
-  padding: 7px 15px 19px;
+  padding: 7px 5px 19px 15px;
 }
 
 .text {
@@ -18,8 +18,12 @@
   overflow-y: auto;
   font-family: $fontOther;
   padding-left: 5px;
+  padding-right: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+  span {
+    color: $white;
+  }
 }
 
 .top {

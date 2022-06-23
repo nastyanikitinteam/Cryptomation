@@ -14,12 +14,17 @@
   color: $white;
   padding: 11px 20px 11px;
   width: 100%;
+  transition: all 0.3s ease-in;
   &::placeholder {
     color: $white;
     font-weight: 500;
     font-size: 14px;
     line-height: 14px;
     font-family: $fontMain;
+  }
+  &:focus,
+  &:active {
+    border-color: $white;
   }
 }
 

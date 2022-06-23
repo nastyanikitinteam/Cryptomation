@@ -8,6 +8,7 @@
   pointer-events: none;
   background: rgba(#000000, 0.5);
   display: none;
+  transition: all 0.3s ease-in;
 }
 
 .block {
@@ -18,7 +19,7 @@
   top: 0;
   padding: 145px 30px 60px;
   transform: translateY(-100%);
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .isOpen {

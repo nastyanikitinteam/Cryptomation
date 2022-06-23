@@ -16,12 +16,15 @@
   top: -5%;
 }
 
-@media (max-width: 768px) {
-  .section {
-    padding: 70px 0;
-  }
+@media (max-width: 998px) {
   .el1,
   .el2 {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
   }
 }

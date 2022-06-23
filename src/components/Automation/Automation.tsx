@@ -1,4 +1,7 @@
+import useMediaQuery from '../../utils/useMediaQuery';
+
 import Scheme from './Scheme/Scheme';
+import SchemeMobile from './SchemeMobile/SchemeMobile';
 
 import styles from './automation.module.scss';
 
@@ -6,6 +9,8 @@ import El1 from '../../assets/images/Powered/brackets_blue.svg';
 import El2 from '../../assets/images/Powered/brackets_yellow.svg';
 
 const Automation = () => {
+  const isMobile = useMediaQuery(768);
+
   return (
     <div className={styles.section}>
       <div className="wrapper">
@@ -23,7 +28,7 @@ const Automation = () => {
           information to you server with any conditions without code.
         </p>
         <div className={styles.scheme}>
-          <Scheme />
+          {isMobile ? <SchemeMobile /> : <Scheme />}
         </div>
       </div>
     </div>
