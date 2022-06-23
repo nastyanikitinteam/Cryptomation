@@ -79,6 +79,15 @@
 .scheme {
   margin: -100px auto -54px;
   pointer-events: none;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+  svg {
+    width: 100%;
+  }
+}
+
+.isShow {
+  opacity: 1;
 }
 
 @media (max-width: 768px) {

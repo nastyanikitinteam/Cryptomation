@@ -3,16 +3,21 @@ import Link from 'next/link';
 import Scheme from './Scheme/Scheme';
 import SchemeMobile from './SchemeMobile/SchemeMobile';
 import useMediaQuery from '../../utils/useMediaQuery';
+import cn from 'classnames';
 
 import styles from './mainSection.module.scss';
 
 const MainSection = () => {
   const [isAnimate, setIsAnimate] = useState(false);
+  const [isShow, setIsShow] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
       setIsAnimate(true);
     }, 1000);
+    setTimeout(() => {
+      setIsShow(true);
+    }, 300);
   }, []);
 
   const isMobile = useMediaQuery(768);
@@ -32,7 +37,7 @@ const MainSection = () => {
           <span className={styles.red}>gRPC</span> /
           <span className={styles.blue}>JDBC</span>.
         </h2>
-        <div className={styles.scheme}>
+        <div className={cn(styles.scheme, { [styles.isShow]: isShow })}>
           {isMobile ? (
             <SchemeMobile isAnimate={isAnimate} />
           ) : (

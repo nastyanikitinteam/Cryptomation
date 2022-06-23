@@ -122,9 +122,7 @@ const SchemeMobile = () => {
             />
           </g>
           <g id="Group 3">
-            <g id="Oval_5" filter="url(#filter0_b_3_103)">
-              <circle cx="167.5" cy="34.5" r="34.5" fill="black" />
-            </g>
+            <circle cx="167.5" cy="34.5" r="34.5" fill="black" />
             <g id="ethereum-eth-logo">
               <path
                 id="Path"
