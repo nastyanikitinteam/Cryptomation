@@ -7,7 +7,7 @@
 .content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   max-width: 1120px;
   width: 100%;
   margin: 0 auto;
@@ -20,7 +20,7 @@
 .info {
   max-width: 440px;
   width: 100%;
-  margin-top: 25px;
+  margin-right: 9.7%;
 }
 
 .text {
@@ -39,13 +39,12 @@
   max-width: 460px;
   width: 100%;
   margin-left: 90px;
+  position: relative;
+  top: 27px;
+  right: 10px;
 }
 
-@media (max-width: 768px) {
-  .section {
-    padding: 60px 0;
-  }
-
+@media (max-width: 998px) {
   .content {
     flex-direction: column;
     h2 {
@@ -56,11 +55,23 @@
 
   .info {
     max-width: none;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    margin-right: 0;
   }
 
   .scheme {
     margin-left: auto;
+    top: 0;
+    right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .info {
+    margin-bottom: 30px;
   }
 
   .text {

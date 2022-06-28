@@ -1,0 +1,79 @@
+.line {
+  stroke-dasharray: 5;
+  animation: dashdraw 1s linear infinite;
+}
+
+.svg {
+  overflow: visible;
+}
+
+.main {
+  transform-origin: center;
+  animation: rotateCircles 30s linear infinite;
+}
+
+.elBlock {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.el1 {
+  transform: rotate(-64deg);
+  transform-origin: center;
+  .elBlock {
+    transform: rotate(64deg);
+    animation: rotateBlock1 30s linear infinite;
+  }
+}
+.el2 {
+  transform: rotate(-31deg);
+  transform-origin: center;
+  .elBlock {
+    transform: rotate(31deg);
+    animation: rotateBlock2 30s linear infinite;
+  }
+}
+.el3 {
+  .elBlock {
+    animation: rotateBlock3 30s linear infinite;
+  }
+}
+
+@keyframes dashdraw {
+  0% {
+    stroke-dashoffset: 10;
+  }
+}
+@keyframes rotateCircles {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateBlock1 {
+  0% {
+    transform: rotate(64deg);
+  }
+  100% {
+    transform: rotate(-296deg);
+  }
+}
+@keyframes rotateBlock2 {
+  0% {
+    transform: rotate(31deg);
+  }
+  100% {
+    transform: rotate(-329deg);
+  }
+}
+@keyframes rotateBlock3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
