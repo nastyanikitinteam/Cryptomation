@@ -1,7 +1,6 @@
 import Blocks from './Blocks/Blocks';
 
-import El1 from '../../assets/images/Powered/brackets_blue.svg';
-import El2 from '../../assets/images/Powered/brackets_yellow.svg';
+import Element from '../ElementAbsolute/ElementAbsolute';
 import styles from './powered.module.scss';
 
 const Powered = () => {
@@ -9,10 +8,10 @@ const Powered = () => {
     <div className={styles.section}>
       <div className="wrapper">
         <div className={styles.el1}>
-          <El1 />
+          <Element color="blue" />
         </div>
         <div className={styles.el2}>
-          <El2 />
+          <Element color="yellow" />
         </div>
         <h2 className="title">Powered API</h2>
         <h3 className={styles.subtitle}>

@@ -3,18 +3,17 @@ import cn from 'classnames';
 
 import styles from './helper.module.scss';
 
-import El1 from '../../assets/images/Powered/brackets_blue.svg';
-import El2 from '../../assets/images/Powered/brackets_yellow.svg';
+import Element from '../ElementAbsolute/ElementAbsolute';
 
 const Helper = () => {
   return (
     <div className={cn('section', styles.section)}>
       <div className="wrapper">
         <div className={styles.el1}>
-          <El1 />
+          <Element color="blue" />
         </div>
         <div className={styles.el2}>
-          <El2 />
+          <Element color="yellow" />
         </div>
         <h2 className="title white">
           Helper API <br /> for you application

@@ -3,11 +3,9 @@ import cn from 'classnames';
 
 import Scheme from './Scheme/Scheme';
 import SchemeMobile from './SchemeMobile/SchemeMobile';
+import Element from '../ElementAbsolute/ElementAbsolute';
 
 import styles from './automation.module.scss';
-
-import El1 from '../../assets/images/Powered/brackets_blue.svg';
-import El2 from '../../assets/images/Powered/brackets_yellow.svg';
 
 const Automation = () => {
   const isMobile = useMediaQuery(768);
@@ -16,10 +14,10 @@ const Automation = () => {
     <div className={cn('section', styles.section)}>
       <div className="wrapper">
         <div className={styles.el1}>
-          <El1 />
+          <Element color="blue" />
         </div>
         <div className={styles.el2}>
-          <El2 />
+          <Element color="yellow" />
         </div>
         <h2 className="title white">Automation without code</h2>
         <p className={styles.text}>
