@@ -11,7 +11,7 @@ import styles from './header.module.scss';
 import Logo from './Logo/Logo';
 
 const Header = () => {
-  const [stick, setStick] = useState(false);
+  const [isStick, setIsStick] = useState(false);
   const [isAnimate, setIsAnimate] = useState(false);
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const isMobile = useMediaQuery(998);
@@ -27,7 +27,7 @@ const Header = () => {
   }, []);
 
   const handleScroll = () => {
-    isOpenMenu === false && setStick(window.scrollY > 35);
+    isOpenMenu === false && setIsStick(window.scrollY > 35);
   };
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const Header = () => {
     <div
       className={cn(
         styles.header,
-        { [styles.stick]: stick },
+        { [styles.stick]: isStick },
         { [styles.openMenu]: isOpenMenu }
       )}
     >
@@ -54,17 +54,21 @@ const Header = () => {
               className={styles.logo}
               onMouseEnter={() => isAnimate === false && setIsAnimate(true)}
             >
-              <Logo isAnimate={isAnimate} setIsAnimate={setIsAnimate} />
+              <Logo
+                isAnimate={isAnimate}
+                setIsAnimate={setIsAnimate}
+                isStick={isStick}
+              />
             </a>
           </Link>
           <MobileMenu isOpenMenu={isOpenMenu} />
 
           <div className={styles.list}>
-            <HeaderList stick={stick} />
+            <HeaderList stick={isStick} />
           </div>
 
           <div className={styles.enter}>
-            <HeaderEnter stick={stick} />
+            <HeaderEnter stick={isStick} />
           </div>
 
           {isMobile && (

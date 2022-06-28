@@ -10,10 +10,11 @@ import styles from './titles.module.scss';
 
 interface IProps {
   isAnimate: boolean;
+  isStick: boolean;
   setIsAnimate: (val: boolean) => void;
 }
 
-const Titles: FC<IProps> = ({ isAnimate, setIsAnimate }) => {
+const Titles: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
   useEffect(() => {
     isAnimate === true &&
       setTimeout(() => {
@@ -66,24 +67,31 @@ const Titles: FC<IProps> = ({ isAnimate, setIsAnimate }) => {
           [styles.isAnimate]: isAnimate,
         })}
       >
-        <g filter="url(#filter0_d_0_1383)" className={styles.dot1}>
-          <rect x="69" y="42" width="5" height="5" fill="#FFCF5E" />
-        </g>
-        <g filter="url(#filter1_d_0_1383)" className={styles.dot2}>
-          <rect x="76" y="42" width="5" height="5" fill="#FF7340" />
-        </g>
-        <g filter="url(#filter2_d_0_1383)" className={styles.dot3}>
-          <rect x="83" y="42" width="5" height="5" fill="#20C4FF" />
-        </g>
-        <g filter="url(#filter3_f_0_1383)" className={styles.dot1}>
-          <rect x="66" y="45" width="8" height="6" fill="#FFCF5E" />
-        </g>
-        <g filter="url(#filter4_f_0_1383)" className={styles.dot2}>
-          <rect x="78" y="45" width="8" height="6" fill="#FF8457" />
-        </g>
-        <g filter="url(#filter5_f_0_1383)" className={styles.dot3}>
-          <rect x="88" y="45" width="8" height="6" fill="#73DAFF" />
-        </g>
+        {isStick ? (
+          <>
+            <g className={styles.dot1}>
+              <rect x="69" y="42" width="5" height="5" fill="#FFCF5E" />
+            </g>
+            <g className={styles.dot2}>
+              <rect x="76" y="42" width="5" height="5" fill="#FF7340" />
+            </g>
+            <g className={styles.dot3}>
+              <rect x="83" y="42" width="5" height="5" fill="#20C4FF" />
+            </g>
+          </>
+        ) : (
+          <>
+            <g filter="url(#filter0_d_0_1383)" className={styles.dot1}>
+              <rect x="69" y="42" width="5" height="5" fill="#FFCF5E" />
+            </g>
+            <g filter="url(#filter1_d_0_1383)" className={styles.dot2}>
+              <rect x="76" y="42" width="5" height="5" fill="#FF7340" />
+            </g>
+            <g filter="url(#filter2_d_0_1383)" className={styles.dot3}>
+              <rect x="83" y="42" width="5" height="5" fill="#20C4FF" />
+            </g>
+          </>
+        )}
       </g>
     </g>
   );

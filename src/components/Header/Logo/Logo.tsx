@@ -6,10 +6,11 @@ import Titles from './Titles/Titles';
 
 interface IProps {
   isAnimate: boolean;
+  isStick: boolean;
   setIsAnimate: (val: boolean) => void;
 }
 
-const Logo: FC<IProps> = ({ isAnimate, setIsAnimate }) => {
+const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
   return (
     <>
       <svg
@@ -61,7 +62,11 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate }) => {
           fill="white"
         />
 
-        <Titles isAnimate={isAnimate} setIsAnimate={setIsAnimate} />
+        <Titles
+          isAnimate={isAnimate}
+          setIsAnimate={setIsAnimate}
+          isStick={isStick}
+        />
 
         <defs>
           <filter
