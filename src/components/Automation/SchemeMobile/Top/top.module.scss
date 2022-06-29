@@ -1,0 +1,22 @@
+.block {
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.active {
+  opacity: 1;
+  .line {
+    stroke-dasharray: 5;
+    animation: dashdraw 1s linear infinite;
+  }
+  .line2 {
+    stroke-dasharray: 5;
+    animation: dashdraw 1s linear infinite reverse;
+  }
+}
+
+@keyframes dashdraw {
+  0% {
+    stroke-dashoffset: 10;
+  }
+}
