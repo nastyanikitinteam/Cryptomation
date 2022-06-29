@@ -15,9 +15,13 @@
 
 @media (max-width: 768px) {
   .section {
-    padding: 90px 0 70px;
+    padding: 60px 0 60px;
   }
   .text {
     margin-top: 20px;
+  }
+  .anchor {
+    position: relative;
+    top: -150px;
   }
 }
