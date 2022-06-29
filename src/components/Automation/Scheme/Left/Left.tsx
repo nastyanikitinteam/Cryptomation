@@ -63,7 +63,7 @@ const Left: FC<IProps> = ({ isActive }) => {
             stroke-dasharray="4"
           />
           <g>
-            <g filter="url(#filter0_b_6_94)">
+            <g>
               <circle cx="175.5" cy="231.5" r="26.5" fill="black" />
             </g>
             <path

@@ -37,6 +37,9 @@
   margin: 60px auto 0;
   display: flex;
   justify-content: center;
+  svg {
+    margin-right: 68px;
+  }
 }
 
 @media (max-width: 998px) {

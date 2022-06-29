@@ -4,14 +4,15 @@ import styles from './top.module.scss';
 
 interface IProps {
   isActive: boolean;
+  isActiveTransaction: boolean;
 }
 
-const Top: FC<IProps> = ({ isActive }) => {
+const Top: FC<IProps> = ({ isActive, isActiveTransaction }) => {
   return (
     <>
       <g className={styles.blackCircle}>
         <g className={cn(styles.block, { [styles.active]: isActive })}>
-          <g filter="url(#filter0_b_11_73)">
+          <g>
             <circle cx="363.5" cy="34.5" r="34.5" fill="black" />
           </g>
           <g>
@@ -56,6 +57,12 @@ const Top: FC<IProps> = ({ isActive }) => {
             stroke-dasharray="4"
             className={styles.line2}
           />
+        </g>
+        <g
+          className={cn(styles.block, {
+            [styles.active]: isActiveTransaction,
+          })}
+        >
           <g>
             <path
               fill-rule="evenodd"
@@ -72,7 +79,7 @@ const Top: FC<IProps> = ({ isActive }) => {
 
         <g className={cn(styles.block, { [styles.active]: !isActive })}>
           <g opacity="0.3">
-            <g filter="url(#filter4_b_6_94)">
+            <g>
               <circle cx="363.5" cy="34.5" r="34.5" fill="black" />
             </g>
             <g>
@@ -118,8 +125,14 @@ const Top: FC<IProps> = ({ isActive }) => {
             stroke-linejoin="round"
             stroke-dasharray="4"
           />
-          <g opacity="0.3">
-            <g filter="url(#filter3_b_6_94)">
+        </g>
+        <g
+          className={cn(styles.block, {
+            [styles.active]: !isActiveTransaction,
+          })}
+        >
+          <g id="kokok" opacity="0.3">
+            <g>
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"

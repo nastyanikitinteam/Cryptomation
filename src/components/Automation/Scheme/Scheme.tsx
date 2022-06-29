@@ -9,6 +9,7 @@ import Right from './Right/Right';
 const Scheme = () => {
   const [isActiveTop, setIsActiveTop] = useState(false);
   const [isActive, setIsActive] = useState(false);
+  const [isActiveTransaction, setIsActiveTransaction] = useState(false);
   const [isActiveYes, setIsActiveYes] = useState(false);
   const [isActiveLeft, setIsActiveLeft] = useState(false);
   const [isActiveRight, setIsActiveRight] = useState(false);
@@ -17,6 +18,10 @@ const Scheme = () => {
     setTimeout(() => {
       setIsActiveTop(true);
     }, 1000);
+
+    setTimeout(() => {
+      setIsActiveTransaction(true);
+    }, 1500);
 
     setTimeout(() => {
       setIsActive(true);
@@ -29,19 +34,20 @@ const Scheme = () => {
           setIsActiveRight(false);
         }
       }, 700);
-    }, 1500);
+    }, 2000);
 
     setTimeout(() => {
       setIsActiveTop(false);
       setIsActive(false);
       setIsActiveLeft(false);
       setIsActiveRight(false);
+      setIsActiveTransaction(false);
       if (isActiveYes) {
         setIsActiveYes(false);
       } else {
         setIsActiveYes(true);
       }
-    }, 5000);
+    }, 5200);
   }, [isActiveYes]);
 
   return (
@@ -54,7 +60,10 @@ const Scheme = () => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <g id="automation-top">
-          <Top isActive={isActiveTop} />
+          <Top
+            isActive={isActiveTop}
+            isActiveTransaction={isActiveTransaction}
+          />
         </g>
         <g id="automation-center">
           <Center isActive={isActive} />

@@ -62,7 +62,7 @@ const Right: FC<IProps> = ({ isActive }) => {
             />
           </g>
           <g>
-            <g filter="url(#filter1_b_6_94)">
+            <g>
               <circle cx="550.5" cy="231.5" r="26.5" fill="black" />
             </g>
             <path
@@ -72,7 +72,7 @@ const Right: FC<IProps> = ({ isActive }) => {
           </g>
         </g>
         <g opacity="0.3">
-          <g filter="url(#filter2_b_6_94)">
+          <g>
             <circle cx="624.5" cy="128.5" r="34.5" fill="black" />
           </g>
           <path
