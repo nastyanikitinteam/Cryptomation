@@ -123,25 +123,25 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
           <path
             d="M675 213C680.857 215.568 720.636 190.827 722 155.5"
             stroke="url(#paint0_linear_0_1213)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
             className={styles.line}
           />
           <path
             d="M675 212.816C669.143 215.398 629.364 190.521 628 155"
             stroke="url(#paint1_linear_0_1213)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
             className={styles.line}
           />
           <path
             d="M675.5 213V153"
             stroke="url(#paint2_linear_0_1213)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
             className={styles.line}
           />
           <circle cx="675" cy="214" r="4" fill="#250A2C" stroke="white" />
@@ -163,7 +163,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="32.7429" />
             <feComposite
               in2="SourceAlpha"
@@ -187,7 +187,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -208,7 +208,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="20.3871" />
             <feComposite
               in2="SourceAlpha"
@@ -231,7 +231,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -252,7 +252,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -303,7 +303,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
             <feComposite
               in2="SourceAlpha"
@@ -326,7 +326,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -347,7 +347,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -398,7 +398,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
             <feComposite
               in2="SourceAlpha"
@@ -421,7 +421,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -442,7 +442,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -493,7 +493,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -544,7 +544,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
             <feComposite
               in2="SourceAlpha"
@@ -567,7 +567,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -588,7 +588,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -639,7 +639,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
             <feComposite
               in2="SourceAlpha"
@@ -662,7 +662,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -683,7 +683,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -734,7 +734,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
             <feComposite
               in2="SourceAlpha"
@@ -757,7 +757,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -778,7 +778,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -829,7 +829,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
             <feComposite
               in2="SourceAlpha"
@@ -852,7 +852,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -873,7 +873,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -924,7 +924,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
             <feComposite
               in2="SourceAlpha"

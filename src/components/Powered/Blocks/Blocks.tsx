@@ -35,7 +35,7 @@ const Blocks = () => {
     <div className={styles.blocks}>
       {arr.map(({ id, title, text, imageText, image, link, color }) => {
         return (
-          <div className={styles.block}>
+          <div className={styles.block} key={id}>
             <Block
               id={id}
               title={title}

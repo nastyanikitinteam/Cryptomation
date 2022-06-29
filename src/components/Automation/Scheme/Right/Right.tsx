@@ -22,9 +22,9 @@ const Right: FC<IProps> = ({ isActive }) => {
               className={styles.line}
               d="M624 158C624 158 606.191 242 470 242"
               stroke="url(#paint2_linear_11_73)"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-dasharray="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeDasharray="4"
             />
           </g>
           <g>
@@ -56,9 +56,9 @@ const Right: FC<IProps> = ({ isActive }) => {
             <path
               d="M624 158C624 158 606.191 242 470 242"
               stroke="url(#paint1_linear_6_94)"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-dasharray="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeDasharray="4"
             />
           </g>
           <g>

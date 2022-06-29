@@ -39,9 +39,9 @@ const SchemeMobile = () => {
               id="Path 3"
               d="M41.9998 340.723C41.9998 340.723 48.4263 290.861 70.4263 241"
               stroke="url(#paint1_linear_3_103)"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-dasharray="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeDasharray="4"
             />
             <g id="yes">
               <circle
@@ -72,9 +72,9 @@ const SchemeMobile = () => {
               id="Path 3_2"
               d="M292.426 340.723C292.426 340.723 286 290.861 264 241"
               stroke="url(#paint2_linear_3_103)"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-dasharray="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeDasharray="4"
             />
             <g id="yes_2">
               <circle
@@ -95,17 +95,17 @@ const SchemeMobile = () => {
             id="Path 4"
             d="M167.5 67V89.5"
             stroke="url(#paint3_linear_3_103)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             id="Path 4_2"
             d="M168.5 132.5L168 111.5"
             stroke="url(#paint4_linear_3_103)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <g id="Group 2">
             <path
@@ -186,7 +186,7 @@ const SchemeMobile = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
             <feComposite
               in2="SourceAlpha"

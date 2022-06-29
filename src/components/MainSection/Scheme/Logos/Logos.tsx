@@ -8,7 +8,7 @@ const Logos = () => {
               r="42.5"
               transform="matrix(-1 0 0 1 1173.5 233.5)"
               stroke="#ACCDFF"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </g>
 
@@ -32,7 +32,7 @@ const Logos = () => {
               r="42.5"
               transform="matrix(-1 0 0 1 1024.5 268.5)"
               stroke="#B8EDFF"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </g>
           <g opacity="0.6" filter="url(#filter5_f_0_1213)">
@@ -64,7 +64,7 @@ const Logos = () => {
               r="42.5"
               transform="matrix(-1 0 0 1 1064.5 139.5)"
               stroke="white"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </g>
 
@@ -88,7 +88,7 @@ const Logos = () => {
               r="42.5"
               transform="matrix(-1 0 0 1 1213.5 99.5)"
               stroke="#FFD7A7"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </g>
 
@@ -111,7 +111,7 @@ const Logos = () => {
               cy="233.5"
               r="42.5"
               stroke="#FFEAB6"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </g>
 
@@ -148,7 +148,7 @@ const Logos = () => {
               cy="268.5"
               r="42.5"
               stroke="#FFB9BA"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </g>
 
@@ -171,7 +171,7 @@ const Logos = () => {
               cy="139.5"
               r="42.5"
               stroke="white"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </g>
 
@@ -212,7 +212,7 @@ const Logos = () => {
               cy="99.5"
               r="42.5"
               stroke="#C4A0FF"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </g>
 

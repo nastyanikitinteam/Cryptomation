@@ -78,7 +78,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -112,7 +112,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -146,7 +146,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -180,7 +180,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -201,7 +201,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -222,7 +222,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"

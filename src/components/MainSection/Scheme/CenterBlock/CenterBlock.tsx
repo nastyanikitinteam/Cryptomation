@@ -92,7 +92,7 @@ const CenterBlock: FC<IProps> = ({ isAnimate }) => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="32.7429" />
             <feComposite
               in2="SourceAlpha"

@@ -19,7 +19,7 @@ const Exame = () => {
             cy="251.5"
             r="88.5"
             stroke="#5EAE45"
-            stroke-dasharray="4.79"
+            strokeDasharray="4.79"
           />
           <g className={styles.elBlock}>
             <path
@@ -40,7 +40,7 @@ const Exame = () => {
             cy="251.5"
             r="88.5"
             stroke="#E84142"
-            stroke-dasharray="4.79"
+            strokeDasharray="4.79"
           />
           <g className={styles.elBlock}>
             <path
@@ -81,7 +81,7 @@ const Exame = () => {
             cy="129.5"
             r="88.5"
             stroke="#1CCEFF"
-            stroke-dasharray="4.79"
+            strokeDasharray="4.79"
           />
           <g className={styles.elBlock}>
             <ellipse
@@ -104,7 +104,7 @@ const Exame = () => {
               rx="20.9635"
               ry="8.01454"
               stroke="white"
-              stroke-width="1.91667"
+              strokeWidth="1.91667"
             />
             <ellipse
               cx="202.328"
@@ -113,7 +113,7 @@ const Exame = () => {
               ry="8.00684"
               transform="rotate(60 202.328 41.3731)"
               stroke="white"
-              stroke-width="1.91667"
+              strokeWidth="1.91667"
             />
             <ellipse
               cx="202.328"
@@ -122,7 +122,7 @@ const Exame = () => {
               ry="8.00684"
               transform="rotate(120 202.328 41.3731)"
               stroke="white"
-              stroke-width="1.91667"
+              strokeWidth="1.91667"
             />
           </g>
         </g>

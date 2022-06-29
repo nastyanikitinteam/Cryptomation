@@ -42,36 +42,36 @@ const Scheme = () => {
             opacity="0.5"
             d="M374 196L355.5 185.5L287.5 223.5"
             stroke="url(#paint2_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             className={styles.line}
             opacity="0.5"
             d="M323 76L357.5 96.5L289.5 134.5"
             stroke="url(#paint3_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             className={styles.line}
             opacity="0.5"
             d="M212.5 166.5V178.5L136 132.5L164 116.5V106.5"
             stroke="url(#paint4_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             className={styles.line}
             opacity="0.5"
             d="M215 355L194.5 369.5L29.5 275.5L95 239.5"
             stroke="url(#paint5_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <g id="b-line-el1">
             <g filter="url(#filter1_f_0_645)">
@@ -515,9 +515,9 @@ const Scheme = () => {
             opacity="0.5"
             d="M218.5 114.5L248 130"
             stroke="url(#paint20_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <g id="el2">
             <path
@@ -1100,27 +1100,27 @@ const Scheme = () => {
             opacity="0.5"
             d="M144.5 241L196 269.5L224 253.5"
             stroke="url(#paint81_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             className={styles.line}
             opacity="0.5"
             d="M427.5 225L548.5 296L609.5 260"
             stroke="url(#paint82_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             className={styles.line}
             opacity="0.5"
             d="M301.5 255L320 265.5L388 227.5V223.5"
             stroke="url(#paint83_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             className={styles.line}
@@ -1135,9 +1135,9 @@ const Scheme = () => {
             opacity="0.5"
             d="M391 341.5V337L317 296L231 346.5"
             stroke="url(#paint85_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <g id="el7">
             <path
@@ -1472,18 +1472,18 @@ const Scheme = () => {
             opacity="0.5"
             d="M245.5 355L297 383.5L325 367.5"
             stroke="url(#paint114_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             className={styles.line}
             opacity="0.5"
             d="M367.5 418L386 428.5L430.27 401.643L411.5 392"
             stroke="url(#paint115_linear_0_645)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
         </g>
         <defs>
@@ -1496,7 +1496,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1517,7 +1517,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1538,7 +1538,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1559,7 +1559,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1580,7 +1580,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1601,7 +1601,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1622,7 +1622,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1643,7 +1643,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1664,7 +1664,7 @@ const Scheme = () => {
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"

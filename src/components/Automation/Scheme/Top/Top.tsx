@@ -44,17 +44,17 @@ const Top: FC<IProps> = ({ isActive, isActiveTransaction }) => {
           <path
             d="M363.5 67L364 111.5"
             stroke="url(#paint4_linear_11_73)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
             className={styles.line}
           />
           <path
             d="M363.5 180L364 135.5"
             stroke="url(#paint5_linear_11_73)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
             className={styles.line2}
           />
         </g>
@@ -113,17 +113,17 @@ const Top: FC<IProps> = ({ isActive, isActiveTransaction }) => {
             opacity="0.3"
             d="M363.5 67L364 111.5"
             stroke="url(#paint2_linear_6_94)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
           <path
             opacity="0.3"
             d="M363.5 180L364 135.5"
             stroke="url(#paint3_linear_6_94)"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-dasharray="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray="4"
           />
         </g>
         <g

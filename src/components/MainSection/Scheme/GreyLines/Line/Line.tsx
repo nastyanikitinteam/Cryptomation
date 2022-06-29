@@ -15,7 +15,7 @@ const Line: FC<IProps> = ({ id, path }) => {
         opacity="0.6"
         d={path}
         stroke="#A95094"
-        stroke-dasharray="4"
+        strokeDasharray="4"
       />
     </g>
   );
