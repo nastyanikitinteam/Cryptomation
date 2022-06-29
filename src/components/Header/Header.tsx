@@ -49,7 +49,7 @@ const Header = () => {
     >
       <div className="wrapper">
         <div className={styles.content}>
-          <Link href="/123">
+          <Link href="/">
             <a
               className={styles.logo}
               onMouseEnter={() => isAnimate === false && setIsAnimate(true)}

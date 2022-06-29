@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { useRouter } from 'next/router';
 import Link from 'next/link';
 import cn from 'classnames';
 import styles from './headerList.module.scss';
@@ -33,19 +34,31 @@ const arr = [
 ];
 
 const HeaderList: FC<IProps> = ({ stick }) => {
+  const router = useRouter();
+
+  console.log(router.asPath);
+
   return (
     <div className={cn(styles.list, { [styles.stick]: stick })}>
       {arr.map(({ id, title, link, anсhor }) => {
         return anсhor ? (
-          <Lk
-            key={id}
-            to={link}
-            smooth={true}
-            duration={300}
-            className={styles.item}
-          >
-            {title}
-          </Lk>
+          <>
+            {router.asPath == '/' ? (
+              <Lk
+                key={id}
+                to={link}
+                smooth={true}
+                duration={300}
+                className={styles.item}
+              >
+                {title}
+              </Lk>
+            ) : (
+              <Link href={'/#' + link} key={id}>
+                <a className={styles.item}>{title}</a>
+              </Link>
+            )}
+          </>
         ) : (
           <Link href={link} key={id}>
             <a className={styles.item}>{title}</a>

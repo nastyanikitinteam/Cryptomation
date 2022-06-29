@@ -16,7 +16,7 @@ const Footer = () => {
         </h2>
         <div className={styles.content}>
           {!isMobile && (
-            <Link href="/123">
+            <Link href="/">
               <a className={styles.logo}>
                 <LogoSVG />
               </a>
