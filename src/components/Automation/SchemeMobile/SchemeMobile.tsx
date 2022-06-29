@@ -16,8 +16,8 @@ const SchemeMobile = () => {
           />
           <path
             id="Rectangle_2"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M0 377C0 364.882 0 358.823 2.05613 354.071C4.58147 348.236 9.2356 343.581 15.0713 341.056C19.8227 339 25.8818 339 38 339H164C176.118 339 182.177 339 186.929 341.056C192.764 343.581 197.419 348.236 199.944 354.071C202 358.823 202 364.882 202 377C202 389.118 202 395.177 199.944 399.929C197.419 405.764 192.764 410.419 186.929 412.944C182.177 415 176.118 415 164 415H38C25.8818 415 19.8227 415 15.0713 412.944C9.2356 410.419 4.58147 405.764 2.05613 399.929C0 395.177 0 389.118 0 377Z"
             fill="url(#paint0_linear_3_103)"
           />
@@ -110,8 +110,8 @@ const SchemeMobile = () => {
           <g id="Group 2">
             <path
               id="Rectangle_3"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M110 97C110 94.1997 110 92.7996 110.545 91.73C111.024 90.7892 111.789 90.0243 112.73 89.545C113.8 89 115.2 89 118 89H216C218.8 89 220.2 89 221.27 89.545C222.211 90.0243 222.976 90.7892 223.455 91.73C224 92.7996 224 94.1997 224 97V104C224 106.8 224 108.2 223.455 109.27C222.976 110.211 222.211 110.976 221.27 111.455C220.2 112 218.8 112 216 112H118C115.2 112 113.8 112 112.73 111.455C111.789 110.976 111.024 110.211 110.545 109.27C110 108.2 110 106.8 110 104V97Z"
               fill="url(#paint5_linear_3_103)"
             />
@@ -219,12 +219,8 @@ const SchemeMobile = () => {
             y2="241"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#390B34" stop-opacity="0.01" />
-            <stop
-              offset="0.210052"
-              stop-color="white"
-              stop-opacity="0.903398"
-            />
+            <stop stop-color="#390B34" stopOpacity="0.01" />
+            <stop offset="0.210052" stop-color="white" stopOpacity="0.903398" />
             <stop offset="1" stop-color="white" />
           </linearGradient>
           <linearGradient
@@ -235,12 +231,8 @@ const SchemeMobile = () => {
             y2="241"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#390B34" stop-opacity="0.01" />
-            <stop
-              offset="0.210052"
-              stop-color="white"
-              stop-opacity="0.903398"
-            />
+            <stop stop-color="#390B34" stopOpacity="0.01" />
+            <stop offset="0.210052" stop-color="white" stopOpacity="0.903398" />
             <stop offset="1" stop-color="white" />
           </linearGradient>
           <linearGradient
@@ -255,9 +247,9 @@ const SchemeMobile = () => {
             <stop
               offset="0.514733"
               stop-color="#FFC85E"
-              stop-opacity="0.902664"
+              stopOpacity="0.902664"
             />
-            <stop offset="1" stop-color="#FFBE5E" stop-opacity="0.01" />
+            <stop offset="1" stop-color="#FFBE5E" stopOpacity="0.01" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_3_103"
@@ -271,9 +263,9 @@ const SchemeMobile = () => {
             <stop
               offset="0.514733"
               stop-color="#FFC85E"
-              stop-opacity="0.902664"
+              stopOpacity="0.902664"
             />
-            <stop offset="1" stop-color="#FFBE5E" stop-opacity="0.01" />
+            <stop offset="1" stop-color="#FFBE5E" stopOpacity="0.01" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_3_103"

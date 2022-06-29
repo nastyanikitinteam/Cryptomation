@@ -8,7 +8,7 @@ const Info = () => {
     {
       id: 0,
       title: 'Privacy Policy',
-      link: '/1',
+      link: '/PrivacyPolicy',
     },
     {
       id: 1,
