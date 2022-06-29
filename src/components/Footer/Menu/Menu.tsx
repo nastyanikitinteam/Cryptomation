@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import styles from './menu.module.scss';
+import { Link as Lk, animateScroll as scroll } from 'react-scroll';
 
 const arr = [
   {
     id: 0,
     title: 'Pricing',
-    link: '/1',
+    link: 'pricing',
+    anсhor: true,
   },
   {
     id: 1,
@@ -27,8 +29,18 @@ const arr = [
 const Menu = () => {
   return (
     <div className={styles.list}>
-      {arr.map(({ id, title, link }) => {
-        return (
+      {arr.map(({ id, title, link, anсhor }) => {
+        return anсhor ? (
+          <Lk
+            key={id}
+            to={link}
+            smooth={true}
+            duration={300}
+            className={styles.item}
+          >
+            {title}
+          </Lk>
+        ) : (
           <Link href={link} key={id}>
             <a className={styles.item}>{title}</a>
           </Link>
