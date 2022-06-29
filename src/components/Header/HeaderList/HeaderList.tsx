@@ -36,8 +36,6 @@ const arr = [
 const HeaderList: FC<IProps> = ({ stick }) => {
   const router = useRouter();
 
-  console.log(router.asPath);
-
   return (
     <div className={cn(styles.list, { [styles.stick]: stick })}>
       {arr.map(({ id, title, link, anсhor }) => {
@@ -47,6 +45,7 @@ const HeaderList: FC<IProps> = ({ stick }) => {
               <Lk
                 key={id}
                 to={link}
+                offset={-80}
                 smooth={true}
                 duration={300}
                 className={styles.item}

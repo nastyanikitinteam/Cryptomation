@@ -14,6 +14,8 @@ const Header = () => {
   const [isStick, setIsStick] = useState(false);
   const [isAnimate, setIsAnimate] = useState(false);
   const [isOpenMenu, setIsOpenMenu] = useState(false);
+  const [isClose, setIsClose] = useState(true);
+
   const isMobile = useMediaQuery(998);
 
   useEffect(() => {
@@ -64,7 +66,7 @@ const Header = () => {
           <MobileMenu isOpenMenu={isOpenMenu} />
 
           <div className={styles.list}>
-            <HeaderList stick={isStick} />
+            <HeaderList stick={isStick} setIsClose={setIsClose} />
           </div>
 
           <div className={styles.enter}>
