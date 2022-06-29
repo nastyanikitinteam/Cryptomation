@@ -6,13 +6,14 @@ import styles from './mobileMenu.module.scss';
 
 interface IProps {
   isOpenMenu: boolean;
+  handleClick: () => void;
 }
 
-const MobileMenu: FC<IProps> = ({ isOpenMenu }) => {
+const MobileMenu: FC<IProps> = ({ isOpenMenu, handleClick }) => {
   return (
     <div className={cn(styles.menu, { [styles.isOpen]: isOpenMenu })}>
       <div className={styles.block}>
-        <HeaderList />
+        <HeaderList handleClick ={handleClick}/>
         <div className={styles.buttons}>
           <HeaderEnter />
         </div>

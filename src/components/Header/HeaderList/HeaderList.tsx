@@ -7,6 +7,7 @@ import { Link as Lk, animateScroll as scroll } from 'react-scroll';
 
 interface IProps {
   stick?: boolean;
+  handleClick: () => void;
 }
 
 const arr = [
@@ -33,7 +34,7 @@ const arr = [
   },
 ];
 
-const HeaderList: FC<IProps> = ({ stick }) => {
+const HeaderList: FC<IProps> = ({ stick, handleClick }) => {
   const router = useRouter();
 
   return (
@@ -45,10 +46,10 @@ const HeaderList: FC<IProps> = ({ stick }) => {
               <Lk
                 key={id}
                 to={link}
-                offset={-80}
                 smooth={true}
                 duration={300}
                 className={styles.item}
+                onClick={handleClick}
               >
                 {title}
               </Lk>

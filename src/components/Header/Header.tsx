@@ -63,10 +63,16 @@ const Header = () => {
               />
             </a>
           </Link>
-          <MobileMenu isOpenMenu={isOpenMenu} />
+          <MobileMenu
+            isOpenMenu={isOpenMenu}
+            handleClick={() => setIsOpenMenu(false)}
+          />
 
           <div className={styles.list}>
-            <HeaderList stick={isStick} />
+            <HeaderList
+              stick={isStick}
+              handleClick={() => setIsOpenMenu(false)}
+            />
           </div>
 
           <div className={styles.enter}>
