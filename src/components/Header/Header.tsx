@@ -66,7 +66,7 @@ const Header = () => {
           <MobileMenu isOpenMenu={isOpenMenu} />
 
           <div className={styles.list}>
-            <HeaderList stick={isStick} setIsClose={setIsClose} />
+            <HeaderList stick={isStick} />
           </div>
 
           <div className={styles.enter}>
