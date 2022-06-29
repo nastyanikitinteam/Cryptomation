@@ -39,7 +39,8 @@
 }
 
 .wrapper {
-  max-width: 830px;
+  max-width: 840px;
+  padding: 0 20px;
 }
 
 .el1 {
@@ -53,6 +54,7 @@
     padding: 60px 0;
     p {
       margin-bottom: 20px;
+      line-height: 28px;
     }
     h3 {
       margin-top: 40px;
