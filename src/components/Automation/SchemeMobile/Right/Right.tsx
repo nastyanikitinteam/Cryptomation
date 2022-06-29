@@ -61,7 +61,7 @@ const Right: FC<IProps> = ({ isActive }) => {
             stroke-dasharray="4"
           />
           <g>
-            <g filter="url(#filter1_b_12_35)">
+            <g>
               <circle cx="278.5" cy="289.5" r="26.5" fill="black" />
             </g>
             <path
@@ -71,7 +71,7 @@ const Right: FC<IProps> = ({ isActive }) => {
           </g>
         </g>
         <g opacity="0.3">
-          <g filter="url(#filter4_b_12_35)">
+          <g>
             <circle cx="300.5" cy="373.5" r="34.5" fill="black" />
           </g>
           <path

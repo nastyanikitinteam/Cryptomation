@@ -79,7 +79,7 @@ const Top: FC<IProps> = ({ isActive, isActiveTransaction }) => {
 
         <g className={cn(styles.block, { [styles.active]: !isActive })}>
           <g opacity="0.3">
-            <g filter="url(#filter2_b_12_35)">
+            <g>
               <circle cx="167.5" cy="34.5" r="34.5" fill="black" />
             </g>
             <g>

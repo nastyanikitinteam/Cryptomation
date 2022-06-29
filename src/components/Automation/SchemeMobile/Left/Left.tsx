@@ -42,7 +42,7 @@ const Left: FC<IProps> = ({ isActive }) => {
       </g>
       <g className={cn(styles.block, { [styles.active]: !isActive })}>
         <g opacity="0.3">
-          <g filter="url(#filter3_b_12_35)">
+          <g>
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
@@ -66,7 +66,7 @@ const Left: FC<IProps> = ({ isActive }) => {
             stroke-dasharray="4"
           />
           <g>
-            <g filter="url(#filter0_b_12_35)">
+            <g>
               <circle cx="56.5" cy="289.5" r="26.5" fill="black" />
             </g>
             <path
