@@ -185,8 +185,8 @@ const Scheme = () => {
           y2="266"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#601870" />
-          <stop offset="1" stop-color="#130A36" />
+          <stop stopColor="#601870" />
+          <stop offset="1" stopColor="#130A36" />
         </linearGradient>
       </defs>
     </svg>

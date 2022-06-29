@@ -1,0 +1,28 @@
+@import '../../styles/var';
+
+.section {
+  padding: 165px 0 120px;
+  background-image: url(../../assets/images/Privacy/back.png);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.el1 {
+  position: absolute;
+  right: 7.5%;
+  bottom: -21%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 100px 0 60px;
+  }
+  .el1 {
+    display: none;
+  }
+}

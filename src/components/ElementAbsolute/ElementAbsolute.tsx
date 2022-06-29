@@ -53,8 +53,8 @@ const ElementAbsolute: FC<IProps> = ({ color }) => {
                 y2="40"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#009FFA" />
-                <stop offset="1" stop-color="#0066F3" />
+                <stop stopColor="#009FFA" />
+                <stop offset="1" stopColor="#0066F3" />
               </linearGradient>
             </defs>
           </>
@@ -96,8 +96,8 @@ const ElementAbsolute: FC<IProps> = ({ color }) => {
                 y2="44.6238"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FFCF5E" />
-                <stop offset="1" stop-color="#FFB55E" />
+                <stop stopColor="#FFCF5E" />
+                <stop offset="1" stopColor="#FFB55E" />
               </linearGradient>
             </defs>
           </>

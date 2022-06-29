@@ -946,9 +946,9 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             y2="153"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
-            <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
+            <stop stopColor="white" />
+            <stop offset="0.514733" stopColor="white" stopOpacity="0.903398" />
+            <stop offset="1" stopColor="#390B34" stopOpacity="0.01" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_0_1213"
@@ -958,9 +958,9 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             y2="153"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
-            <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
+            <stop stopColor="white" />
+            <stop offset="0.514733" stopColor="white" stopOpacity="0.903398" />
+            <stop offset="1" stopColor="#390B34" stopOpacity="0.01" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_0_1213"
@@ -970,9 +970,9 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             y2="165"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="0.514733" stop-color="white" stopOpacity="0.903398" />
-            <stop offset="1" stop-color="#390B34" stopOpacity="0.01" />
+            <stop stopColor="white" />
+            <stop offset="0.514733" stopColor="white" stopOpacity="0.903398" />
+            <stop offset="1" stopColor="#390B34" stopOpacity="0.01" />
           </linearGradient>
         </defs>
       </svg>

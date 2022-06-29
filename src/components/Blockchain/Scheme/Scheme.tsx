@@ -1684,8 +1684,8 @@ const Scheme = () => {
             y2="106.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF9D62" />
-            <stop offset="1" stop-color="#269BD3" />
+            <stop stopColor="#FF9D62" />
+            <stop offset="1" stopColor="#269BD3" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_0_645"
@@ -1695,8 +1695,8 @@ const Scheme = () => {
             y2="185.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#269BD3" />
-            <stop offset="1" stop-color="#FF9D62" />
+            <stop stopColor="#269BD3" />
+            <stop offset="1" stopColor="#FF9D62" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_0_645"
@@ -1706,8 +1706,8 @@ const Scheme = () => {
             y2="223.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFC55E" />
-            <stop offset="1" stop-color="#2FC2FF" />
+            <stop stopColor="#FFC55E" />
+            <stop offset="1" stopColor="#2FC2FF" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_0_645"
@@ -1717,8 +1717,8 @@ const Scheme = () => {
             y2="78.8907"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFC65E" />
-            <stop offset="1" stop-color="#FF9158" />
+            <stop stopColor="#FFC65E" />
+            <stop offset="1" stopColor="#FF9158" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_0_645"
@@ -1728,8 +1728,8 @@ const Scheme = () => {
             y2="106.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFC15E" />
-            <stop offset="1" stop-color="#3AC5FF" />
+            <stop stopColor="#FFC15E" />
+            <stop offset="1" stopColor="#3AC5FF" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_0_645"
@@ -1739,8 +1739,8 @@ const Scheme = () => {
             y2="174.584"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3AC5FF" />
-            <stop offset="1" stop-color="#FFC15E" />
+            <stop stopColor="#3AC5FF" />
+            <stop offset="1" stopColor="#FFC15E" />
           </linearGradient>
           <linearGradient
             id="paint6_linear_0_645"
@@ -1750,8 +1750,8 @@ const Scheme = () => {
             y2="110.727"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#005895" />
-            <stop offset="1" stop-color="#2575A8" />
+            <stop stopColor="#005895" />
+            <stop offset="1" stopColor="#2575A8" />
           </linearGradient>
           <linearGradient
             id="paint7_linear_0_645"
@@ -1761,8 +1761,8 @@ const Scheme = () => {
             y2="103.324"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint8_linear_0_645"
@@ -1772,8 +1772,8 @@ const Scheme = () => {
             y2="84.8449"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint9_linear_0_645"
@@ -1783,8 +1783,8 @@ const Scheme = () => {
             y2="79.1757"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint10_linear_0_645"
@@ -1794,8 +1794,8 @@ const Scheme = () => {
             y2="98.285"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint11_linear_0_645"
@@ -1805,8 +1805,8 @@ const Scheme = () => {
             y2="92.6158"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint12_linear_0_645"
@@ -1816,8 +1816,8 @@ const Scheme = () => {
             y2="109.477"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0177B4" />
-            <stop offset="1" stop-color="#1C8EC3" />
+            <stop stopColor="#0177B4" />
+            <stop offset="1" stopColor="#1C8EC3" />
           </linearGradient>
           <linearGradient
             id="paint13_linear_0_645"
@@ -1827,8 +1827,8 @@ const Scheme = () => {
             y2="74.6497"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint14_linear_0_645"
@@ -1838,8 +1838,8 @@ const Scheme = () => {
             y2="66.9426"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1083BC" />
-            <stop offset="1" stop-color="#269BD3" />
+            <stop stopColor="#1083BC" />
+            <stop offset="1" stopColor="#269BD3" />
           </linearGradient>
           <linearGradient
             id="paint15_linear_0_645"
@@ -1849,8 +1849,8 @@ const Scheme = () => {
             y2="58.3258"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#055C98" />
-            <stop offset="1" stop-color="#0E82BB" />
+            <stop stopColor="#055C98" />
+            <stop offset="1" stopColor="#0E82BB" />
           </linearGradient>
           <linearGradient
             id="paint16_linear_0_645"
@@ -1860,8 +1860,8 @@ const Scheme = () => {
             y2="50.828"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint17_linear_0_645"
@@ -1871,8 +1871,8 @@ const Scheme = () => {
             y2="59.9363"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint18_linear_0_645"
@@ -1882,8 +1882,8 @@ const Scheme = () => {
             y2="50.1274"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint19_linear_0_645"
@@ -1893,8 +1893,8 @@ const Scheme = () => {
             y2="41.7197"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint20_linear_0_645"
@@ -1904,8 +1904,8 @@ const Scheme = () => {
             y2="114.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFCD5E" />
-            <stop offset="1" stop-color="#3BC6FF" />
+            <stop stopColor="#FFCD5E" />
+            <stop offset="1" stopColor="#3BC6FF" />
           </linearGradient>
           <linearGradient
             id="paint21_linear_0_645"
@@ -1915,8 +1915,8 @@ const Scheme = () => {
             y2="248.633"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF961D" />
-            <stop offset="1" stop-color="#FFAC48" />
+            <stop stopColor="#FF961D" />
+            <stop offset="1" stopColor="#FFAC48" />
           </linearGradient>
           <linearGradient
             id="paint22_linear_0_645"
@@ -1926,8 +1926,8 @@ const Scheme = () => {
             y2="247.029"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint23_linear_0_645"
@@ -1937,8 +1937,8 @@ const Scheme = () => {
             y2="246.824"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFAB46" />
-            <stop offset="1" stop-color="#FFC05E" />
+            <stop stopColor="#FFAB46" />
+            <stop offset="1" stopColor="#FFC05E" />
           </linearGradient>
           <linearGradient
             id="paint24_linear_0_645"
@@ -1948,8 +1948,8 @@ const Scheme = () => {
             y2="197"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint25_linear_0_645"
@@ -1959,8 +1959,8 @@ const Scheme = () => {
             y2="203.093"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint26_linear_0_645"
@@ -1970,8 +1970,8 @@ const Scheme = () => {
             y2="173.718"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint27_linear_0_645"
@@ -1981,8 +1981,8 @@ const Scheme = () => {
             y2="163"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint28_linear_0_645"
@@ -1992,8 +1992,8 @@ const Scheme = () => {
             y2="176"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint29_linear_0_645"
@@ -2003,8 +2003,8 @@ const Scheme = () => {
             y2="162"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint30_linear_0_645"
@@ -2014,8 +2014,8 @@ const Scheme = () => {
             y2="150"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint31_linear_0_645"
@@ -2025,8 +2025,8 @@ const Scheme = () => {
             y2="235.727"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#EC4E00" />
-            <stop offset="1" stop-color="#FF7743" />
+            <stop stopColor="#EC4E00" />
+            <stop offset="1" stopColor="#FF7743" />
           </linearGradient>
           <linearGradient
             id="paint32_linear_0_645"
@@ -2036,8 +2036,8 @@ const Scheme = () => {
             y2="228.324"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint33_linear_0_645"
@@ -2047,8 +2047,8 @@ const Scheme = () => {
             y2="209.845"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint34_linear_0_645"
@@ -2058,8 +2058,8 @@ const Scheme = () => {
             y2="204.176"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint35_linear_0_645"
@@ -2069,8 +2069,8 @@ const Scheme = () => {
             y2="236.845"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint36_linear_0_645"
@@ -2080,8 +2080,8 @@ const Scheme = () => {
             y2="231.176"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint37_linear_0_645"
@@ -2091,8 +2091,8 @@ const Scheme = () => {
             y2="223.285"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint38_linear_0_645"
@@ -2102,8 +2102,8 @@ const Scheme = () => {
             y2="217.616"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint39_linear_0_645"
@@ -2113,8 +2113,8 @@ const Scheme = () => {
             y2="234.477"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF6921" />
-            <stop offset="1" stop-color="#FFA166" />
+            <stop stopColor="#FF6921" />
+            <stop offset="1" stopColor="#FFA166" />
           </linearGradient>
           <linearGradient
             id="paint40_linear_0_645"
@@ -2124,8 +2124,8 @@ const Scheme = () => {
             y2="199.65"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint41_linear_0_645"
@@ -2135,8 +2135,8 @@ const Scheme = () => {
             y2="199.575"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#EC4E00" />
-            <stop offset="1" stop-color="#FF7743" />
+            <stop stopColor="#EC4E00" />
+            <stop offset="1" stopColor="#FF7743" />
           </linearGradient>
           <linearGradient
             id="paint42_linear_0_645"
@@ -2146,8 +2146,8 @@ const Scheme = () => {
             y2="147.046"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7743" />
-            <stop offset="1" stop-color="#EC4E00" />
+            <stop stopColor="#FF7743" />
+            <stop offset="1" stopColor="#EC4E00" />
           </linearGradient>
           <linearGradient
             id="paint43_linear_0_645"
@@ -2157,8 +2157,8 @@ const Scheme = () => {
             y2="175.828"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint44_linear_0_645"
@@ -2168,8 +2168,8 @@ const Scheme = () => {
             y2="184.936"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint45_linear_0_645"
@@ -2179,8 +2179,8 @@ const Scheme = () => {
             y2="175.127"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint46_linear_0_645"
@@ -2190,8 +2190,8 @@ const Scheme = () => {
             y2="166.72"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint47_linear_0_645"
@@ -2201,8 +2201,8 @@ const Scheme = () => {
             y2="74.0626"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#EC4E00" />
-            <stop offset="1" stop-color="#FF7743" />
+            <stop stopColor="#EC4E00" />
+            <stop offset="1" stopColor="#FF7743" />
           </linearGradient>
           <linearGradient
             id="paint48_linear_0_645"
@@ -2212,8 +2212,8 @@ const Scheme = () => {
             y2="70.4196"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint49_linear_0_645"
@@ -2223,8 +2223,8 @@ const Scheme = () => {
             y2="61.0118"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint50_linear_0_645"
@@ -2234,8 +2234,8 @@ const Scheme = () => {
             y2="58.1257"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint51_linear_0_645"
@@ -2245,8 +2245,8 @@ const Scheme = () => {
             y2="74.7573"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint52_linear_0_645"
@@ -2256,8 +2256,8 @@ const Scheme = () => {
             y2="71.8712"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint53_linear_0_645"
@@ -2267,8 +2267,8 @@ const Scheme = () => {
             y2="67.8541"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint54_linear_0_645"
@@ -2278,8 +2278,8 @@ const Scheme = () => {
             y2="64.968"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint55_linear_0_645"
@@ -2289,8 +2289,8 @@ const Scheme = () => {
             y2="73.4486"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF6921" />
-            <stop offset="1" stop-color="#FFA166" />
+            <stop stopColor="#FF6921" />
+            <stop offset="1" stopColor="#FFA166" />
           </linearGradient>
           <linearGradient
             id="paint56_linear_0_645"
@@ -2300,8 +2300,8 @@ const Scheme = () => {
             y2="55.8217"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint57_linear_0_645"
@@ -2311,8 +2311,8 @@ const Scheme = () => {
             y2="55.7753"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#EC4E00" />
-            <stop offset="1" stop-color="#FF7743" />
+            <stop stopColor="#EC4E00" />
+            <stop offset="1" stopColor="#FF7743" />
           </linearGradient>
           <linearGradient
             id="paint58_linear_0_645"
@@ -2322,8 +2322,8 @@ const Scheme = () => {
             y2="29.0437"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7743" />
-            <stop offset="1" stop-color="#EC4E00" />
+            <stop stopColor="#FF7743" />
+            <stop offset="1" stopColor="#EC4E00" />
           </linearGradient>
           <linearGradient
             id="paint59_linear_0_645"
@@ -2333,8 +2333,8 @@ const Scheme = () => {
             y2="43.0574"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7340" />
-            <stop offset="1" stop-color="#FFA669" />
+            <stop stopColor="#FF7340" />
+            <stop offset="1" stopColor="#FFA669" />
           </linearGradient>
           <linearGradient
             id="paint60_linear_0_645"
@@ -2344,8 +2344,8 @@ const Scheme = () => {
             y2="224.08"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#005895" />
-            <stop offset="1" stop-color="#2575A8" />
+            <stop stopColor="#005895" />
+            <stop offset="1" stopColor="#2575A8" />
           </linearGradient>
           <linearGradient
             id="paint61_linear_0_645"
@@ -2355,8 +2355,8 @@ const Scheme = () => {
             y2="228.897"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint62_linear_0_645"
@@ -2366,8 +2366,8 @@ const Scheme = () => {
             y2="215.625"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint63_linear_0_645"
@@ -2377,8 +2377,8 @@ const Scheme = () => {
             y2="211.553"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint64_linear_0_645"
@@ -2388,8 +2388,8 @@ const Scheme = () => {
             y2="225.277"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint65_linear_0_645"
@@ -2399,8 +2399,8 @@ const Scheme = () => {
             y2="221.206"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint66_linear_0_645"
@@ -2410,8 +2410,8 @@ const Scheme = () => {
             y2="223.196"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0177B4" />
-            <stop offset="1" stop-color="#1C8EC3" />
+            <stop stopColor="#0177B4" />
+            <stop offset="1" stopColor="#1C8EC3" />
           </linearGradient>
           <linearGradient
             id="paint67_linear_0_645"
@@ -2421,8 +2421,8 @@ const Scheme = () => {
             y2="198.248"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint68_linear_0_645"
@@ -2432,8 +2432,8 @@ const Scheme = () => {
             y2="192.713"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1083BC" />
-            <stop offset="1" stop-color="#269BD3" />
+            <stop stopColor="#1083BC" />
+            <stop offset="1" stopColor="#269BD3" />
           </linearGradient>
           <linearGradient
             id="paint69_linear_0_645"
@@ -2443,8 +2443,8 @@ const Scheme = () => {
             y2="186.518"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#055C98" />
-            <stop offset="1" stop-color="#0E82BB" />
+            <stop stopColor="#055C98" />
+            <stop offset="1" stopColor="#0E82BB" />
           </linearGradient>
           <linearGradient
             id="paint70_linear_0_645"
@@ -2454,8 +2454,8 @@ const Scheme = () => {
             y2="181.14"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint71_linear_0_645"
@@ -2465,8 +2465,8 @@ const Scheme = () => {
             y2="187.681"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint72_linear_0_645"
@@ -2476,8 +2476,8 @@ const Scheme = () => {
             y2="180.637"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint73_linear_0_645"
@@ -2487,8 +2487,8 @@ const Scheme = () => {
             y2="174.599"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint74_linear_0_645"
@@ -2498,8 +2498,8 @@ const Scheme = () => {
             y2="260.339"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF961D" />
-            <stop offset="1" stop-color="#FFAC48" />
+            <stop stopColor="#FF961D" />
+            <stop offset="1" stopColor="#FFAC48" />
           </linearGradient>
           <linearGradient
             id="paint75_linear_0_645"
@@ -2509,8 +2509,8 @@ const Scheme = () => {
             y2="259.415"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint76_linear_0_645"
@@ -2520,8 +2520,8 @@ const Scheme = () => {
             y2="259.263"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFAB46" />
-            <stop offset="1" stop-color="#FFC05E" />
+            <stop stopColor="#FFAB46" />
+            <stop offset="1" stopColor="#FFC05E" />
           </linearGradient>
           <linearGradient
             id="paint77_linear_0_645"
@@ -2531,8 +2531,8 @@ const Scheme = () => {
             y2="229.197"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint78_linear_0_645"
@@ -2542,8 +2542,8 @@ const Scheme = () => {
             y2="232.834"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint79_linear_0_645"
@@ -2553,8 +2553,8 @@ const Scheme = () => {
             y2="215.098"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint80_linear_0_645"
@@ -2564,8 +2564,8 @@ const Scheme = () => {
             y2="208.49"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint81_linear_0_645"
@@ -2575,8 +2575,8 @@ const Scheme = () => {
             y2="241"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFCD5E" />
-            <stop offset="1" stop-color="#FF9B5F" />
+            <stop stopColor="#FFCD5E" />
+            <stop offset="1" stopColor="#FF9B5F" />
           </linearGradient>
           <linearGradient
             id="paint82_linear_0_645"
@@ -2586,8 +2586,8 @@ const Scheme = () => {
             y2="225"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFC85E" />
-            <stop offset="1" stop-color="#45CAFF" />
+            <stop stopColor="#FFC85E" />
+            <stop offset="1" stopColor="#45CAFF" />
           </linearGradient>
           <linearGradient
             id="paint83_linear_0_645"
@@ -2597,8 +2597,8 @@ const Scheme = () => {
             y2="223.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3BC6FF" />
-            <stop offset="1" stop-color="#FFCD5E" />
+            <stop stopColor="#3BC6FF" />
+            <stop offset="1" stopColor="#FFCD5E" />
           </linearGradient>
           <linearGradient
             id="paint84_linear_0_645"
@@ -2608,8 +2608,8 @@ const Scheme = () => {
             y2="296"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFC15E" />
-            <stop offset="1" stop-color="#269BD3" />
+            <stop stopColor="#FFC15E" />
+            <stop offset="1" stopColor="#269BD3" />
           </linearGradient>
           <linearGradient
             id="paint85_linear_0_645"
@@ -2619,8 +2619,8 @@ const Scheme = () => {
             y2="346.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#26BFFF" />
-            <stop offset="1" stop-color="#FF8E56" />
+            <stop stopColor="#26BFFF" />
+            <stop offset="1" stopColor="#FF8E56" />
           </linearGradient>
           <linearGradient
             id="paint86_linear_0_645"
@@ -2630,8 +2630,8 @@ const Scheme = () => {
             y2="388.339"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF961D" />
-            <stop offset="1" stop-color="#FFAC48" />
+            <stop stopColor="#FF961D" />
+            <stop offset="1" stopColor="#FFAC48" />
           </linearGradient>
           <linearGradient
             id="paint87_linear_0_645"
@@ -2641,8 +2641,8 @@ const Scheme = () => {
             y2="387.415"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint88_linear_0_645"
@@ -2652,8 +2652,8 @@ const Scheme = () => {
             y2="387.263"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFAB46" />
-            <stop offset="1" stop-color="#FFC05E" />
+            <stop stopColor="#FFAB46" />
+            <stop offset="1" stopColor="#FFC05E" />
           </linearGradient>
           <linearGradient
             id="paint89_linear_0_645"
@@ -2663,8 +2663,8 @@ const Scheme = () => {
             y2="357.197"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint90_linear_0_645"
@@ -2674,8 +2674,8 @@ const Scheme = () => {
             y2="360.834"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint91_linear_0_645"
@@ -2685,8 +2685,8 @@ const Scheme = () => {
             y2="343.098"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint92_linear_0_645"
@@ -2696,8 +2696,8 @@ const Scheme = () => {
             y2="336.624"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint93_linear_0_645"
@@ -2707,8 +2707,8 @@ const Scheme = () => {
             y2="344.49"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint94_linear_0_645"
@@ -2718,8 +2718,8 @@ const Scheme = () => {
             y2="336.019"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint95_linear_0_645"
@@ -2729,8 +2729,8 @@ const Scheme = () => {
             y2="328.758"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint96_linear_0_645"
@@ -2740,8 +2740,8 @@ const Scheme = () => {
             y2="352.82"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#005895" />
-            <stop offset="1" stop-color="#2575A8" />
+            <stop stopColor="#005895" />
+            <stop offset="1" stopColor="#2575A8" />
           </linearGradient>
           <linearGradient
             id="paint97_linear_0_645"
@@ -2751,8 +2751,8 @@ const Scheme = () => {
             y2="356.74"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint98_linear_0_645"
@@ -2762,8 +2762,8 @@ const Scheme = () => {
             y2="346.157"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint99_linear_0_645"
@@ -2773,8 +2773,8 @@ const Scheme = () => {
             y2="342.91"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint100_linear_0_645"
@@ -2784,8 +2784,8 @@ const Scheme = () => {
             y2="353.854"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint101_linear_0_645"
@@ -2795,8 +2795,8 @@ const Scheme = () => {
             y2="350.607"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint102_linear_0_645"
@@ -2806,8 +2806,8 @@ const Scheme = () => {
             y2="352.13"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0177B4" />
-            <stop offset="1" stop-color="#1C8EC3" />
+            <stop stopColor="#0177B4" />
+            <stop offset="1" stopColor="#1C8EC3" />
           </linearGradient>
           <linearGradient
             id="paint103_linear_0_645"
@@ -2817,8 +2817,8 @@ const Scheme = () => {
             y2="332.299"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint104_linear_0_645"
@@ -2828,8 +2828,8 @@ const Scheme = () => {
             y2="327.885"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1083BC" />
-            <stop offset="1" stop-color="#269BD3" />
+            <stop stopColor="#1083BC" />
+            <stop offset="1" stopColor="#269BD3" />
           </linearGradient>
           <linearGradient
             id="paint105_linear_0_645"
@@ -2839,8 +2839,8 @@ const Scheme = () => {
             y2="322.936"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#055C98" />
-            <stop offset="1" stop-color="#0E82BB" />
+            <stop stopColor="#055C98" />
+            <stop offset="1" stopColor="#0E82BB" />
           </linearGradient>
           <linearGradient
             id="paint106_linear_0_645"
@@ -2850,8 +2850,8 @@ const Scheme = () => {
             y2="318.873"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#01B2FF" />
-            <stop offset="1" stop-color="#59D0FF" />
+            <stop stopColor="#01B2FF" />
+            <stop offset="1" stopColor="#59D0FF" />
           </linearGradient>
           <linearGradient
             id="paint107_linear_0_645"
@@ -2861,8 +2861,8 @@ const Scheme = () => {
             y2="415.339"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF961D" />
-            <stop offset="1" stop-color="#FFAC48" />
+            <stop stopColor="#FF961D" />
+            <stop offset="1" stopColor="#FFAC48" />
           </linearGradient>
           <linearGradient
             id="paint108_linear_0_645"
@@ -2872,8 +2872,8 @@ const Scheme = () => {
             y2="414.415"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint109_linear_0_645"
@@ -2883,8 +2883,8 @@ const Scheme = () => {
             y2="414.263"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFAB46" />
-            <stop offset="1" stop-color="#FFC05E" />
+            <stop stopColor="#FFAB46" />
+            <stop offset="1" stopColor="#FFC05E" />
           </linearGradient>
           <linearGradient
             id="paint110_linear_0_645"
@@ -2894,8 +2894,8 @@ const Scheme = () => {
             y2="384.197"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint111_linear_0_645"
@@ -2905,8 +2905,8 @@ const Scheme = () => {
             y2="387.834"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint112_linear_0_645"
@@ -2916,8 +2916,8 @@ const Scheme = () => {
             y2="370.098"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF831D" />
-            <stop offset="1" stop-color="#FF9131" />
+            <stop stopColor="#FF831D" />
+            <stop offset="1" stopColor="#FF9131" />
           </linearGradient>
           <linearGradient
             id="paint113_linear_0_645"
@@ -2927,8 +2927,8 @@ const Scheme = () => {
             y2="363.758"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFB55E" />
-            <stop offset="1" stop-color="#FFCF5E" />
+            <stop stopColor="#FFB55E" />
+            <stop offset="1" stopColor="#FFCF5E" />
           </linearGradient>
           <linearGradient
             id="paint114_linear_0_645"
@@ -2938,8 +2938,8 @@ const Scheme = () => {
             y2="355"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFBD5E" />
-            <stop offset="1" stop-color="#45C9FF" />
+            <stop stopColor="#FFBD5E" />
+            <stop offset="1" stopColor="#45C9FF" />
           </linearGradient>
           <linearGradient
             id="paint115_linear_0_645"
@@ -2949,9 +2949,9 @@ const Scheme = () => {
             y2="392"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFC65E" />
-            <stop offset="0.360998" stop-color="#FFC65E" />
-            <stop offset="1" stop-color="#FFCD5E" />
+            <stop stopColor="#FFC65E" />
+            <stop offset="0.360998" stopColor="#FFC65E" />
+            <stop offset="1" stopColor="#FFCD5E" />
           </linearGradient>
         </defs>
       </svg>

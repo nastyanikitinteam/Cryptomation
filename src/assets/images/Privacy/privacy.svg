@@ -1,0 +1,22 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="privacy">
+<rect id="Rectangle" width="60" height="60" rx="30" fill="url(#paint0_linear_0_209)"/>
+<g id="privacy_2">
+<g id="vuesax/linear/security-safe">
+<g id="security-safe">
+<path id="Vector" d="M30.5099 39.93C30.1799 40.02 29.8198 40.02 29.4898 39.93C24.6398 38.59 21.0898 34.01 21.0898 29.12V24.73C21.0898 23.91 21.7099 22.98 22.4799 22.67L28.0498 20.3901C29.2998 19.8801 30.7098 19.8801 31.9598 20.3901L37.5298 22.67C38.2898 22.98 38.9199 23.91 38.9199 24.73L38.9099 29.12C38.9099 34.01 35.3599 38.59 30.5099 39.93Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Group">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M30 30.5C28.8954 30.5 28 29.6046 28 28.5C28 27.3954 28.8954 26.5 30 26.5C31.1046 26.5 32 27.3954 32 28.5C32 29.6046 31.1046 30.5 30 30.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M30 30.5V33.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_209" x1="0" y1="0" x2="0" y2="60" gradientUnits="userSpaceOnUse">
+<stop stop-color="#009FFA"/>
+<stop offset="1" stop-color="#0066F3"/>
+</linearGradient>
+</defs>
+</svg>

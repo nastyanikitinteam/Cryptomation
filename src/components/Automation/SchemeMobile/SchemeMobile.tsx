@@ -208,8 +208,8 @@ const SchemeMobile = () => {
             y2="525.248"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#50104C" />
-            <stop offset="1" stop-color="#11073B" />
+            <stop stopColor="#50104C" />
+            <stop offset="1" stopColor="#11073B" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_3_103"
@@ -219,9 +219,9 @@ const SchemeMobile = () => {
             y2="241"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#390B34" stopOpacity="0.01" />
-            <stop offset="0.210052" stop-color="white" stopOpacity="0.903398" />
-            <stop offset="1" stop-color="white" />
+            <stop stopColor="#390B34" stopOpacity="0.01" />
+            <stop offset="0.210052" stopColor="white" stopOpacity="0.903398" />
+            <stop offset="1" stopColor="white" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_3_103"
@@ -231,9 +231,9 @@ const SchemeMobile = () => {
             y2="241"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#390B34" stopOpacity="0.01" />
-            <stop offset="0.210052" stop-color="white" stopOpacity="0.903398" />
-            <stop offset="1" stop-color="white" />
+            <stop stopColor="#390B34" stopOpacity="0.01" />
+            <stop offset="0.210052" stopColor="white" stopOpacity="0.903398" />
+            <stop offset="1" stopColor="white" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_3_103"
@@ -243,13 +243,13 @@ const SchemeMobile = () => {
             y2="67"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFCA5E" />
+            <stop stopColor="#FFCA5E" />
             <stop
               offset="0.514733"
-              stop-color="#FFC85E"
+              stopColor="#FFC85E"
               stopOpacity="0.902664"
             />
-            <stop offset="1" stop-color="#FFBE5E" stopOpacity="0.01" />
+            <stop offset="1" stopColor="#FFBE5E" stopOpacity="0.01" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_3_103"
@@ -259,13 +259,13 @@ const SchemeMobile = () => {
             y2="133"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFCA5E" />
+            <stop stopColor="#FFCA5E" />
             <stop
               offset="0.514733"
-              stop-color="#FFC85E"
+              stopColor="#FFC85E"
               stopOpacity="0.902664"
             />
-            <stop offset="1" stop-color="#FFBE5E" stopOpacity="0.01" />
+            <stop offset="1" stopColor="#FFBE5E" stopOpacity="0.01" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_3_103"
@@ -275,8 +275,8 @@ const SchemeMobile = () => {
             y2="145.366"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#50104C" />
-            <stop offset="1" stop-color="#11073B" />
+            <stop stopColor="#50104C" />
+            <stop offset="1" stopColor="#11073B" />
           </linearGradient>
           <linearGradient
             id="paint6_linear_3_103"
@@ -286,8 +286,8 @@ const SchemeMobile = () => {
             y2="508.07"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#50104C" />
-            <stop offset="1" stop-color="#11073B" />
+            <stop stopColor="#50104C" />
+            <stop offset="1" stopColor="#11073B" />
           </linearGradient>
         </defs>
       </svg>
