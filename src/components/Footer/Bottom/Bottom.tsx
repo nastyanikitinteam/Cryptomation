@@ -13,7 +13,7 @@ const Bottom = () => {
     <div className={styles.content}>
       <p className={styles.text}>© 2022 CryptoMation. All rights reserved.</p>
       {isMobile && (
-        <Link href="/123">
+        <Link href="/">
           <a className={styles.logo}>
             <LogoSVG />
           </a>

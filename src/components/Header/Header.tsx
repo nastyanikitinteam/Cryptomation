@@ -1,4 +1,4 @@
-import { useEffect, useState, useContext } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import cn from 'classnames';
 import useMediaQuery from '../../utils/useMediaQuery';
@@ -14,7 +14,6 @@ const Header = () => {
   const [isStick, setIsStick] = useState(false);
   const [isAnimate, setIsAnimate] = useState(false);
   const [isOpenMenu, setIsOpenMenu] = useState(false);
-  const [isClose, setIsClose] = useState(true);
 
   const isMobile = useMediaQuery(998);
 
@@ -28,9 +27,9 @@ const Header = () => {
     }, 500);
   }, []);
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     isOpenMenu === false && setIsStick(window.scrollY > 35);
-  };
+  }, [isOpenMenu]);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -39,7 +38,7 @@ const Header = () => {
     };
   });
 
-  const onChangeMenu = () => setIsOpenMenu((prev) => !prev);
+  const onChangeMenu = useCallback(() => setIsOpenMenu((prev) => !prev), []);
 
   return (
     <div

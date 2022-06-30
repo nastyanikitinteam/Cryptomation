@@ -11,18 +11,14 @@ interface IProps {
 }
 
 const HeaderEnter: FC<IProps> = ({ stick }) => {
-  return (
+  return stick ? (
+    <StickEnter />
+  ) : (
     <>
-      {stick ? (
-        <StickEnter />
-      ) : (
-        <>
-          <div className={styles.top}>
-            <EmailEnter />
-          </div>
-          <GoogleEnter />
-        </>
-      )}
+      <div className={styles.top}>
+        <EmailEnter />
+      </div>
+      <GoogleEnter />
     </>
   );
 };

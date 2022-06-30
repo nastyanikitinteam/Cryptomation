@@ -6,7 +6,7 @@ const EmailEnter = () => {
     <div className={styles.block}>
       <input type="text" className={styles.input} placeholder="Email" />
       <div className={styles.button}>
-        <Link href="123">
+        <Link href="/">
           <a className="button button-sm">Log in</a>
         </Link>
       </div>

@@ -1494,7 +1494,7 @@ const Scheme = () => {
             width="108.903"
             height="85.3656"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -1515,7 +1515,7 @@ const Scheme = () => {
             width="176.548"
             height="135.548"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -1536,7 +1536,7 @@ const Scheme = () => {
             width="140.366"
             height="103.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -1557,7 +1557,7 @@ const Scheme = () => {
             width="149.366"
             height="108.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -1578,7 +1578,7 @@ const Scheme = () => {
             width="222.548"
             height="162.548"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -1599,7 +1599,7 @@ const Scheme = () => {
             width="123.929"
             height="91.9291"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -1620,7 +1620,7 @@ const Scheme = () => {
             width="140.366"
             height="103.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -1641,7 +1641,7 @@ const Scheme = () => {
             width="114.366"
             height="88.3656"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -1662,7 +1662,7 @@ const Scheme = () => {
             width="140.366"
             height="103.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend

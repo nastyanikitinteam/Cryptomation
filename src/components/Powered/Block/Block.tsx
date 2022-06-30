@@ -50,7 +50,7 @@ const Block: FC<IProps> = ({
       <Link href={link}>
         <a className={styles.documentation}>
           <span className={styles.icon}>
-            <img src={LinkBlue.src} alt="" />
+            <img src={LinkBlue.src} alt="documentation" />
           </span>
           Documentation
         </a>

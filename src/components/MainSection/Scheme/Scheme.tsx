@@ -161,7 +161,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="236.972"
             height="236.972"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="32.7429" />
@@ -185,7 +185,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="231.478"
             height="231.478"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -206,7 +206,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="263.548"
             height="144.548"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="20.3871" />
@@ -229,7 +229,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="231.478"
             height="231.478"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -250,7 +250,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="106"
             height="105"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -301,7 +301,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -324,7 +324,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="231.478"
             height="231.478"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -345,7 +345,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="106"
             height="105"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -396,7 +396,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -419,7 +419,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="231.478"
             height="231.478"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -440,7 +440,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="106"
             height="105"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -491,7 +491,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="106"
             height="105"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -542,7 +542,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -565,7 +565,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="231.478"
             height="231.478"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -586,7 +586,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="106"
             height="105"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -637,7 +637,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -660,7 +660,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="231.478"
             height="231.478"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -681,7 +681,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="106"
             height="105"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -732,7 +732,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -755,7 +755,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="231.478"
             height="231.478"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -776,7 +776,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="106"
             height="105"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -827,7 +827,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -850,7 +850,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="231.478"
             height="231.478"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -871,7 +871,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="106"
             height="105"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -922,7 +922,7 @@ const Scheme: FC<IProps> = ({ isAnimate }) => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />

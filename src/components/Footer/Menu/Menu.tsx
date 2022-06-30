@@ -1,32 +1,36 @@
+import { useMemo } from 'react';
 import Link from 'next/link';
 import styles from './menu.module.scss';
-import { Link as Lk, animateScroll as scroll } from 'react-scroll';
-
-const arr = [
-  {
-    id: 0,
-    title: 'Pricing',
-    link: 'pricing',
-    anсhor: true,
-  },
-  {
-    id: 1,
-    title: 'Use Cases',
-    link: '/1',
-  },
-  {
-    id: 2,
-    title: 'Docs',
-    link: '/1',
-  },
-  {
-    id: 3,
-    title: 'Blog',
-    link: '/1',
-  },
-];
+import { Link as Lk } from 'react-scroll';
 
 const Menu = () => {
+  const arr = useMemo(
+    () => [
+      {
+        id: 0,
+        title: 'Pricing',
+        link: 'pricing',
+        anсhor: true,
+      },
+      {
+        id: 1,
+        title: 'Use Cases',
+        link: '/',
+      },
+      {
+        id: 2,
+        title: 'Docs',
+        link: '/',
+      },
+      {
+        id: 3,
+        title: 'Blog',
+        link: '/',
+      },
+    ],
+    []
+  );
+
   return (
     <div className={styles.list}>
       {arr.map(({ id, title, link, anсhor }) => {

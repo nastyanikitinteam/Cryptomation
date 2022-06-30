@@ -7,7 +7,7 @@ import FlachIcon from '../../../assets/images/flash.svg';
 const QuestionList = () => {
   return (
     <div className={styles.list}>
-      <Link href="/123">
+      <Link href="/">
         <a className={styles.item}>
           <span className={styles.icon}>
             <LinkYellowIcon />
@@ -15,7 +15,7 @@ const QuestionList = () => {
           Write to us
         </a>
       </Link>
-      <Link href="/123">
+      <Link href="/">
         <a className={styles.item}>
           <span className={styles.icon}>
             <FlachIcon />

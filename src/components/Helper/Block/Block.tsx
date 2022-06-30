@@ -45,15 +45,17 @@ const stringExample3 = `"quote":
 }`;
 
 const Block: FC<IProps> = ({ id, title, text, link }) => {
-  const addingSpan = (string: string) => {
-    return string
-      .split('')
-      .map((item) => (
-        <React.Fragment>
-          {exceptions.includes(item) ? <span>{item}</span> : item}
-        </React.Fragment>
-      ));
-  };
+  const addingSpan = useCallback(
+    (string: string) =>
+      string
+        .split('')
+        .map((item, id) => (
+          <React.Fragment key={item + id}>
+            {exceptions.includes(item) ? <span>{item}</span> : item}
+          </React.Fragment>
+        )),
+    []
+  );
 
   return (
     <>

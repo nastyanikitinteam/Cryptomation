@@ -1,4 +1,4 @@
-import { FC, ReactNode } from 'react';
+import { FC } from 'react';
 import cn from 'classnames';
 
 import styles from './block.module.scss';

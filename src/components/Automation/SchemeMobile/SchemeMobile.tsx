@@ -82,7 +82,7 @@ const SchemeMobile = () => {
             width="107.366"
             height="107.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -105,7 +105,7 @@ const SchemeMobile = () => {
             width="107.366"
             height="107.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -128,7 +128,7 @@ const SchemeMobile = () => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -151,7 +151,7 @@ const SchemeMobile = () => {
             width="256.366"
             height="130.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -174,7 +174,7 @@ const SchemeMobile = () => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />
@@ -275,7 +275,7 @@ const SchemeMobile = () => {
             width="123.366"
             height="123.366"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImage" stdDeviation="13.5914" />

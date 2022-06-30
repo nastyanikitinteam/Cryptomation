@@ -5,12 +5,12 @@ const StickEnter = () => {
   return (
     <div className={styles.buttons}>
       <div className={styles.button}>
-        <Link href="123">
+        <Link href="/">
           <a className="button button-sm button-border">Log in</a>
         </Link>
       </div>
       <div className={styles.button}>
-        <Link href="123">
+        <Link href="/">
           <a className="button button-sm">Create project</a>
         </Link>
       </div>

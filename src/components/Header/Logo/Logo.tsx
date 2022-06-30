@@ -76,7 +76,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             width="11"
             height="11"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -110,7 +110,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             width="11"
             height="11"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -144,7 +144,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             width="11"
             height="11"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -178,7 +178,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             width="40.6194"
             height="38.6194"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -199,7 +199,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             width="40.6194"
             height="38.6194"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
@@ -220,7 +220,7 @@ const Logo: FC<IProps> = ({ isAnimate, setIsAnimate, isStick }) => {
             width="40.6194"
             height="38.6194"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend

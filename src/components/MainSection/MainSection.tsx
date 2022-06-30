@@ -50,7 +50,7 @@ const MainSection = () => {
         </div>
         <div className={cn(styles.content, { [styles.isShow]: isShow })}>
           <div className={styles.button}>
-            <Link href="/1">
+            <Link href="/">
               <a className="button">Create free project</a>
             </Link>
           </div>
